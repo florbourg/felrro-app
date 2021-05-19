@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+
+body {
+    background-color: #fff;
+    color: #5a5a5a;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.margen-container {
+    margin-bottom: 100px;
+}
+
+#brand {
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar-collapse {
+    margin-top: 30px;
+}
+
+.navbar-light {
+    background-color: rgba(255, 255, 255) !important;
+}
+
+.nav-item {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #67A4C7 !important;
+}
+
+.active {
+    color: #f28518 !important;
+}
+
+
+.bg-info {
+    border: #67A4C7 2px solid;
+    background-color: #fff !important;
+    color: #454545 !important;
+}
+
+p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+ul {
+    font-size: 11px;
+}
+
+/* h2, h3, h4, h5 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+h3 {
+    margin: 40px 0px;
+    font-weight: 600 !important;
+    text-align: left;
+    font-size: 20px;
+}
+
+h5 {
+    margin: 20px 0px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.divisor {
+    border-bottom: #67A4C7 solid 3px;
+}
+
+.divisor-org {
+    border-bottom: #f28518 solid 3px;
+}
+
+h2 {
+    font-weight: 500 !important;
+    text-align: left;
+    font-size: 2.7em;
+    color: #0195CB !important;
+}
+
+.img-contact {
+    max-width: 300px;
+}
+
+
+
+/* MODAL MENU */
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.95;
+}
+
+.modal-content {
+    border: none;
+    width: 100%;
+}
+
+/* CARDS CALIDAD */
+
+.card-img-top {
+    width: 30% !important;
+    margin-left: 10%;
+}
+
+/* CARDS PRODUCTOS */
+
+#menuAccordion {
+    /* position: fixed; */
+    padding-top: 10px;
+}
+
+#asideMenu .card {
+    border: 0px;
+}
+
+#asideMenu .card-header {
+    background: #fff;
+    border-bottom: 0px;
+    margin: -10px 15px;
+    padding: 0px 0px;
+
+}
+
+#asideMenu .card-body {
+    padding: 0px 0px;
+    margin-left: 20px;
+}
+
+#asideMenu .card-header button span {
+    position: relative;
+    font-size: small;
+    float: left;
+    margin-right: 10px;
+
+}
+
+#asideMenu .card-header button {
+    color: rgb(34, 34, 34);
+    font-size: small;
+    text-decoration: none;
+}
+
+#asideMenu .list-group-item {
+    font-size: 0.8em;
+    border: 0px;
+    font-weight: 600;
+}
+
+#asideMenu .list-group-item span {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.9em;
+    color: rgb(36, 36, 36);
+}
+
+#asideMenu .list-group-item.active {
+    background-color: #fff;
+}
+
+.nombreProducto {
+    margin-bottom: 2px;
+}
+
+
+#destacados p {
+    font-size: 12px;
+}
+
+#cuadros p {
+    font-size: 12px;
+}
+
+#cuadros h6 {
+    font-size: 13px;
+}
+
+
+/* TABLAS */
+
+table.tableizer-table {
+    font-size: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    border: 1px solid #CCC;
+    width: 100%;
+}
+
+.tableizer-table td {
+    padding: 3px;
+    margin: -2px;
+    text-align: center;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+
+.tableizer-table th {
+    padding: 4px 6px 4px 6px;
+    background-color: #454545;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    text-align: center;
+}
+
+.verde {
+    background-color: #67A4C7;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    background-color: #67A4C7;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+
+#footer-brand {
+    height: 60px;
+    margin: 10px 0px;
+}
+
+footer span {
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+
+
+/* HOME CAROUSEL */
+
+.carousel-caption h5 {
+    color: grey;
+    position: absolute;
+    top: -350px;
+    left: -60px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 60%;
+    text-align: left;
+
+}
+
+.carousel-caption span {
+    margin-top: 30px;
+    position: absolute;
+    top: -320px;
+    left: -60px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 50%;
+    text-align: left;
+    color: #221E1F !important;
+
+}
+
+.carousel-inner {
+    padding-top: 20px;
+}
+
+.carousel-caption a {
+    margin: 20px 0px;
+}
+
+.imgDesktop {
+    display: block;
+    text-align: right;
+}
+
+.imgMobile {
+    display: none;
+}
+
+.carousel-caption-mobile {
+    display: none;
+}
+
+.carousel-control-prev {
+    background-color: #7c7c7c2d;
+    width: 40px;
+}
+
+.carousel-control-next {
+    background-color: #7c7c7c2d;
+    width: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-inner {
+        padding-right: 0px;
+        height: 100%;
+        margin-bottom: 80px;
+    }
+
+    .imgDesktop {
+        display: none;
+    }
+
+    .imgMobile {
+        display: block;
+    }
+
+    .carousel-caption {
+        display: none;
+
+    }
+
+    .carousel-caption-mobile {
+        padding-top: 20px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .carousel-caption-mobile h5 {
+        color: grey;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+
+    }
+
+    .carousel-caption-mobile span {
+        margin-top: 30px;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #221E1F !important;
+
+    }
+
+    .carousel-control-prev {
+       display: none;
+    }
+    
+    .carousel-control-next {
+        display: none;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding-top: 10px;
+        letter-spacing: 0.7px;
+        font-size: 9px;
+    }
+
+    #footer-brand {
+        display: none;
+    }
+
+    footer span {
+        font-size: 15px;
+    }
+
+    iframe {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .imgDesktop {
+        margin-right: 10%;
+    }
+}
+
+
+/* BUTTONS */
+
+.btn-primary {
+    background-color: #67A4C7 !important;
+    border: #67A4C7;
+}
