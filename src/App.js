@@ -1,49 +1,27 @@
-import styled from "styled-components";
-import "./css/main.css";
-import data from "./data/productos.json";
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-function App({ code }) {
-  const { productos } = data;
+import HomePage from "./pages/HomePage";
+import Empresa from "./pages/Empresa";
+import Productos from "./pages/Productos";
+import Calidad from "./pages/Calidad";
+import Contacto from "./pages/Contacto";
 
-  const items = productos.map(function (element) {
-    return {
-      nombre: element.producto,
-      id: element.id,
-      tablas: element.tablas,
-      destacados: element.destacados,
-    };
-  });
+import NotFound from "./pages/NotFound";
 
-  function getByCode(item) {
-    const isFound1 = item.tablas[0].tabla1.indexOf(code);
-    const isFound2 = item.tablas[0].tabla2.indexOf(code);
-    return isFound1 !== -1 || isFound2 !== -1;
-  }
-
-  const foundProduct = () => {
-    return items.find(getByCode);
-  };
-
-  const products = foundProduct();
-  console.log(products);
-
+function App() {
   return (
-    <Container>
-      <h3>{products.nombre}</h3>
-      {products.tablas.map((item) => (
-        <>
-          {/* <p>{item.titulo}</p> */}
-          <Tabla dangerouslySetInnerHTML={{ __html: item.tabla1 }}></Tabla>
-          <Tabla dangerouslySetInnerHTML={{ __html: item.tabla2 }}></Tabla>
-        </>
-      ))}
-    </Container>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/empresa" component={Empresa} />
+        <Route exact path="/productos" component={Productos} />
+        <Route exact path="/calidad" component={Calidad} />
+        <Route exact path="/contacto" component={Contacto} />
+        <Route path="*" component={NotFound} />
+      </Switch>
+    </BrowserRouter>
   );
 }
-
-const Container = styled.div``;
-const Tabla = styled.div`
-  margin: 15px 0px;
-`;
 
 export default App;

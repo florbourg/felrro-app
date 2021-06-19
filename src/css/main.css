@@ -9,95 +9,10 @@ body {
 
 }
 
-.margen-container {
-    margin-bottom: 100px;
-}
-
-#brand {
-    height: 60px;
-    position: relative;
-    top: 10px;
-    left: 10px;
-}
-
-.navbar-collapse {
-    margin-top: 30px;
-}
-
-.navbar-light {
-    background-color: rgba(255, 255, 255) !important;
-}
-
-.nav-item {
-    font-size: 12px;
-    font-weight: 600;
-    margin-right: 20px;
-}
-
-.navbar-nav {
-    margin-bottom: 10px;
-}
-
-.nav-link {
-    color: #67A4C7 !important;
-}
-
-.active {
-    color: #f28518 !important;
-}
-
-
-.bg-info {
-    border: #67A4C7 2px solid;
-    background-color: #fff !important;
-    color: #454545 !important;
-}
-
-p {
-    font-weight: 300;
-    font-size: 13px;
-}
-
 ul {
     font-size: 11px;
 }
 
-/* h2, h3, h4, h5 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-h3 {
-    margin: 40px 0px;
-    font-weight: 600 !important;
-    text-align: left;
-    font-size: 20px;
-}
-
-h5 {
-    margin: 20px 0px;
-    line-height: 20px;
-    font-size: 14px;
-}
-
-.divisor {
-    border-bottom: #67A4C7 solid 3px;
-}
-
-.divisor-org {
-    border-bottom: #f28518 solid 3px;
-}
-
-h2 {
-    font-weight: 500 !important;
-    text-align: left;
-    font-size: 2.7em;
-    color: #0195CB !important;
-}
-
-.img-contact {
-    max-width: 300px;
-}
 
 
 

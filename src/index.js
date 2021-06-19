@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
       <GlobalStyle />
-      <App code="MX/MR 2" />
+      <App />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

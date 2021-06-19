@@ -1,21 +1,22 @@
 {
   "familias": [
-    { "nombre": "Instrumentación", "id": "a" },
-    { "nombre": "Pirometría", "id": "b" },
-    { "nombre": "Datos", "id": "c" },
-    { "nombre": "Comando", "id": "d" },
-    { "nombre": "Potencia", "id": "e" },
-    { "nombre": "Bombas Sumergibles", "id": "f" },
-    { "nombre": "Soldadura", "id": "g" },
-    { "nombre": "Flexible", "id": "h" },
-    { "nombre": "Protección Catódica", "id": "i" }
+    { "nombre": "Instrumentación", "id": "a", "color":"#f28518" },
+    { "nombre": "Pirometría", "id": "b", "color":"#f21818" },
+    { "nombre": "Datos", "id": "c", "color":"#bfa03b" },
+    { "nombre": "Comando", "id": "d", "color":"#1c43ad"},
+    { "nombre": "Potencia", "id": "e", "color":"#6fc8c9" },
+    { "nombre": "Bombas Sumergibles", "id": "f", "color":"#ba7975" },
+    { "nombre": "Soldadura", "id": "g", "color":"#81a367" },
+    { "nombre": "Flexible", "id": "h", "color":"#c0509c" },
+    { "nombre": "Protección Catódica", "id": "i", "color":"#83096f" }
   ],
   "productos": [
     {
       "id": "1",
       "familia": "Instrumentación",
+      "color" : "#f28518",
       "producto": "FECORÓN® SIMPLE",
-      "img": "img/producto/01_Instrumentacion_fecoron.simple.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Instrumentacion_fecoron.simple.png",
       "subtitulo": "Resistente a Hidrocarburos",
       "aislacion": "PVC",
       "vaina": "PVC HR",
@@ -70,14 +71,14 @@
         }
       ],
       "detalle": "Recomendados para la interconexión de equipos de control e instrumentación electrónica. Estos cables están diseñados para proteger en forma íntegra las señales digitales y/o analógicas. La cinta Aluminio-Mylar con conductor de drenaje provee una cobertura 100% para máxima eficiencia.",
-      "pdf_url": "http://felrro.com/pdf/instrum/1-FECORON_FR.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/instrum/1-FECORON_FR.pdf"
     },
     {
       "id": "2",
       "familia": "Instrumentación",
+      "color" : "#f28518",
       "producto": "FECORÓN® ARMADO",
-      "img": "img/producto/02_Instrumentacion_fecoron.armado.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Instrumentacion_fecoron.armado.png",
       "subtitulo": "Resistente a Hidrocarburos",
       "aislacion": "PVC",
       "vaina": "PVC HR",
@@ -145,14 +146,14 @@
         }
       ],
       "detalle": "Estos cables fueron diseñados para aplicaciones petroleras y de uso pesado, donde se requiera una excelente resistencia a los hidrocarburos y gran protección mecánica. Además poseen excelente resistencia a los rayos UV, a la propagación de llama y baja emisión de gases y humos tóxicos; pudiendo ser instalados en interiores y exteriores.",
-      "pdf_url": "http://felrro.com/pdf/instrum/2-FECORON_FR_Armado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/instrum/2-FECORON_FR_Armado.pdf"
     },
     {
       "id": "3",
       "familia": "Instrumentación",
+      "color" : "#f28518",
       "producto": "FECORÓN® LS0H",
-      "img": "img/producto/03_Instrumentacion_fecoron.lh.png",
+      "img": "http://www.felrro.com.ar/img/producto/03_Instrumentacion_fecoron.lh.png",
       "subtitulo": "Libre de Halógenos, baja emisión, FR",
       "aislacion": "LS0H",
       "vaina": "LS0H",
@@ -212,14 +213,14 @@
         }
       ],
       "detalle": "Los cables para instrumentación Libres de Halógenos fueron diseñados para brindar servicio en inmuebles de alta densidad de ocupación y/o difícil evacuación como plantas industriales, aeropuertos, túneles de subterráneo, hoteles, hospitales y locales comerciales. En caso de incendio, los cables FECORON LS0H, aseguran una visibilidad clara y una baja emisión de humostóxicos facilitando el escape de las personas afectadas. La ausencia de halógenos evita la corrosión protegiendo equipos e instalaciones; y la resistencia a la llama evita que el incendio se propague entre ambientes.",
-      "pdf_url": "http://felrro.com/pdf/instrum/3-FECORON_FH.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/instrum/3-FECORON_FH.pdf"
     },
     {
       "id": "4",
       "familia": "Instrumentación",
+      "color" : "#f28518",
       "producto": "FECORÓN® FIREX",
-      "img": "img/producto/04_Instrumentacion_fecoron.firex.png",
+      "img": "http://www.felrro.com.ar/img/producto/04_Instrumentacion_fecoron.firex.png",
       "subtitulo": "Resistente al Fuego",
       "aislacion": "Compuesto Ignífugo",
       "vaina": "PVC FR o LS0H",
@@ -283,14 +284,14 @@
         }
       ],
       "detalle": "Este tipo de cable encuentra su aplicación en sistemas de seguridad, donde sea necesario mantener el servicio normal de funcionamiento durante y después de un incendio. Han sido diseñados para resistir la llama directa y carbonizar conservando gran parte de sus cualidades dieléctricas y físicas, de manera de no interrumpir el abastecimiento normal por cortocircuito.",
-      "pdf_url": "http://felrro.com/pdf/instrum/4-FECORON_FZ.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/instrum/4-FECORON_FZ.pdf"
     },
     {
       "id": "5",
       "familia": "Instrumentación",
+      "color" : "#f28518",
       "producto": "FECORÓN® Tray Cable",
-      "img": "img/producto/05_Instrumentacion_fecoron.tc.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Instrumentacion_fecoron.tc.png",
       "subtitulo": "600V (THHN o THWN) (TFN o TFFN)",
       "aislacion": "PVC / Nylon",
       "vaina": "PVC FR",
@@ -336,14 +337,14 @@
         }
       ],
       "detalle": "Interconexión de equipos de control e instrumentación electrónica hasta 600V. Aptos para ser instalados en lugares secos o húmedos. La vaina posee resistencia a los rayos solares y baja absorción de humedad pudiéndose usar en aplicaciones exteriores o directamente enterrados.",
-      "pdf_url": "http://felrro.com/pdf/instrum/5-FECORON_FN.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/instrum/5-FECORON_FN.pdf"
     },
     {
       "id": "90",
       "familia": "Pirometría",
+      "color" : "#f21818",
       "producto": "Generalidades",
-      "img": "img/producto/11_Pirometria_termex-generalidades-03.png",
+      "img": "http://www.felrro.com.ar/img/producto/11_Pirometria_termex-generalidades-03.png",
       "subtitulo": "TERMEX ®",
       "aislacion": "",
       "vaina": "TERMEX ®",
@@ -360,7 +361,7 @@
         },
         {
           "titulo": "Código de colores",
-          "tabla1": "<a href=\"img/producto/11_Pirometria_termex-generalidades-03.png\" target=\"_blank\">Ver imágen de referencia</a>"
+          "tabla1": "<a href=\"http://www.felrro.com.ar/img/producto/11_Pirometria_termex-generalidades-03.png\" target=\"_blank\">Ver imágen de referencia</a>"
         },
         {
           "titulo": "Tipos de Cables",
@@ -368,302 +369,326 @@
         }
       ],
       "detalle": "Cables utilizados para sistemas de medición y traslado de señales de temperatura desde la termocupla hasta la junta de referencia del instrumento. De acuerdo al tipo de termocupla y tipo de servicio se fabrican con diferentes materiales conductores y aislantes. Cuando se conectan las termocuplas a los instrumentos, es esencial usar un cable que tenga la misma fuerza electromotriz (fem) de salida que la termocupla, de lo contrario se producirán en la unión fem espurias. La mejor solución es utilizar aleaciones para los cables iguales a la de la termocupla (cable de extensión). Una alternativa más barata es usar cables de compensación, las aleaciones de estos son diferentes a la de la termocupla, pero tienen la misma fem de salida en un rango limitado de temperatura.",
-      "pdf_url": "http://felrro.com/pdf/pirometria/Generalidades.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/pirometria/Generalidades.pdf"
     },
     {
       "id": "6",
       "familia": "Pirometría",
+      "color" : "#f21818",
       "producto": "TERMEX® Par plano ó redondo",
-      "img": "img/producto/06_Pirometria_termex.pvc.pvc-portada.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Pirometria_termex.pvc.pvc-portada.png",
       "subtitulo": "Resistente a la propagación de incendios",
       "aislacion": "PVC",
       "vaina": "PVC",
       "subproducto": [
         {
-          "img": "img/producto/07_Pirometria_termex.et.et.png",
+          "img": "http://www.felrro.com.ar/img/producto/07_Pirometria_termex.et.et.png",
           "nombre": "Par Plano",
-          "details": {
-            "one": "Temperatura de Trabajo: -25º +105ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "four": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -25º +105ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/06b_Pirometria_termex.pvc.pvc.png",
+          "img": "http://www.felrro.com.ar/img/producto/06b_Pirometria_termex.pvc.pvc.png",
           "nombre": "Par Redondo",
-          "details": {
-            "one": "Temperatura de Trabajo: -25º +105ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "four": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -25º +105ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/06c_Pirometria_termex.pvc.pvc.png",
+          "img": "http://www.felrro.com.ar/img/producto/06c_Pirometria_termex.pvc.pvc.png",
           "nombre": "Par Plano Blindado",
-          "details": {
-            "one": "Temperatura de Trabajo: -25º +105ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NXv",
-            "three": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "four": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -25º +105ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NXv"},
+            {"detail": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/06d_Pirometria_termex.pvc.pvc.png",
+          "img": "http://www.felrro.com.ar/img/producto/06d_Pirometria_termex.pvc.pvc.png",
           "nombre": "Par Redondo Blindado",
-          "details": {
-            "one": "Temperatura de Trabajo: -25º +105ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NXv",
-            "three": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "four": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -25º +105ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NXv"},
+            {"detail": "Aislación: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Vaina: PVC resistente a la propagación de incendios IRAM-NM-IEC 60332-3"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         }
       ],
       "tablas": [
         {
           "titulo": "Par Plano",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano</strong></p><thead><tr class=\"tableizer-firstrow\"><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup>40</td><td>26</td><td>5,2 x 3,5</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 50</td><td>50</td><td>6,4 x 4,1</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 90</td><td>18</td><td>4,6 x 3,2</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 00</td><td>26</td><td>5,2 x 3,5</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 10</td><td>32</td><td>5,6 x 3,7</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 20</td><td>39</td><td>6,0 x 3,9</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 30</td><td>56</td><td>7,2 x 4,6</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano Blindado</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 40C</td><td>46</td><td>5,8 x 4,1</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 50C</td><td>76</td><td>7,0 x 4,7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 90C</td><td>36</td><td>5,2 x 3,8</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 00C</td><td>46</td><td>5,8 x 4,1</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 10C</td><td>54</td><td>6,2 x 4,3</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 20C</td><td>62</td><td>6,6 x 4,5</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 30C</td><td>84</td><td>7,8 x 5,2</td></tr></tbody></table>"
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr class=\"tableizer-firstrow\"><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup>40</td><td>26</td><td>5,2 x 3,5</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 50</td><td>50</td><td>6,4 x 4,1</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 90</td><td>18</td><td>4,6 x 3,2</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 00</td><td>26</td><td>5,2 x 3,5</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 10</td><td>32</td><td>5,6 x 3,7</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 20</td><td>39</td><td>6,0 x 3,9</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 30</td><td>56</td><td>7,2 x 4,6</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Plano Blindado",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 40C</td><td>46</td><td>5,8 x 4,1</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 50C</td><td>76</td><td>7,0 x 4,7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 90C</td><td>36</td><td>5,2 x 3,8</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 00C</td><td>46</td><td>5,8 x 4,1</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 10C</td><td>54</td><td>6,2 x 4,3</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 20C</td><td>62</td><td>6,6 x 4,5</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 2 <sup> 1 </sup> 30C</td><td>84</td><td>7,8 x 5,2</td></tr></tbody></table>"
         },
         {
           "titulo": "Par Redondo",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Redondo</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 40</td><td>38</td><td>5.2</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 50</td><td>72</td><td>6.4</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 90</td><td>27</td><td>4.6</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 00</td><td>38</td><td>5.2</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 10</td><td>47</td><td>5.6</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 20</td><td>56</td><td>6</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 30</td><td>81</td><td>7.2</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Redondo Blindado</strong></p><thead><tr class=\"tableizer-firstrow\"><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 40C</td><td>58</td><td>5.8</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 50C</td><td>98</td><td>7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 90C</td><td>45</td><td>5.2</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 00C</td><td>58</td><td>5.8</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 10C</td><td>69</td><td>6.2</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 20C</td><td>79</td><td>6.6</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 30C</td><td>109</td><td>7.8</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 40</td><td>38</td><td>5.2</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 50</td><td>72</td><td>6.4</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 90</td><td>27</td><td>4.6</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 00</td><td>38</td><td>5.2</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 10</td><td>47</td><td>5.6</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 20</td><td>56</td><td>6</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 30</td><td>81</td><td>7.2</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Redondo Blindado",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr class=\"tableizer-firstrow\"><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 40C</td><td>58</td><td>5.8</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 50C</td><td>98</td><td>7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 90C</td><td>45</td><td>5.2</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 00C</td><td>58</td><td>5.8</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 10C</td><td>69</td><td>6.2</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 20C</td><td>79</td><td>6.6</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MR 6 <sup> 1 </sup> 30C</td><td>109</td><td>7.8</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
         }
       ],
       "detalle": "Cables para pirometría utilizados en sistemas de medición y traslado de señales de temperatura desde la termocupla hasta la junta de referencia del instrumento. De acuerdo al tipo de termocupla y tipo de servicio se fabrican con diferentes materiales conductores y aislantes.Cuando se conectan las termocuplas a los instrumentos, es esencial usar un cable que tenga la misma fuerza electromotriz (fem) de salida que la termocupla, de lo contrario se producirán en la unión fem espurias. La mejor solución es utilizar aleaciones para los cables iguales a la de la termocupla (cable de extensión). Una alternativa más barata es usar cables de compensación, las aleaciones de estos son diferentes a la de la termocupla, pero tienen la misma fem de salida en un rango limitado de temperatura.",
-      "pdf_url": "http://felrro.com/pdf/pirometria/1-TERMEX_PVC_PVC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/pirometria/1-TERMEX_PVC_PVC.pdf"
     },
     {
       "id": "7",
       "familia": "Pirometría",
+      "color" : "#f21818",
       "producto": "TERMEX® Par plano ó redondo",
-      "img": "img/producto/07_Pirometria_termex.et.et-portada.png",
+      "img": "http://www.felrro.com.ar/img/producto/07_Pirometria_termex.et.et-portada.png",
       "subtitulo": "Cable par de extensión y compensado para pirometría",
       "aislacion": "ET",
       "vaina": "ET",
       "subproducto": [
         {
-          "img": "img/producto/07_Pirometria_termex.et.et.png",
+          "img": "http://www.felrro.com.ar/img/producto/07_Pirometria_termex.et.et.png",
           "nombre": "Par Plano",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +135ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: ET elastómero termoplástico",
-            "four": "Vaina: ET elastómero termoplástico",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details":[
+            {"detail": "Temperatura de Trabajo: -60º +135ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: ET elastómero termoplástico"},
+            {"detail": "Vaina: ET elastómero termoplástico"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/07a_Pirometria_termex.et.et.png",
+          "img": "http://www.felrro.com.ar/img/producto/07a_Pirometria_termex.et.et.png",
           "nombre": "Par Redondo",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +135ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: ET elastómero termoplástico",
-            "four": "Vaina: ET elastómero termoplástico",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +135ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: ET elastómero termoplástico"},
+            {"detail": "Vaina: ET elastómero termoplástico"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/06c_Pirometria_termex.pvc.pvc.png",
+          "img": "http://www.felrro.com.ar/img/producto/06c_Pirometria_termex.pvc.pvc.png",
           "nombre": "Par Plano Blindado",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +135ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: ET elastómero termoplástico",
-            "four": "Vaina: ET elastómero termoplástico",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +135ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: ET elastómero termoplástico"},
+            {"detail": "Vaina: ET elastómero termoplástico"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ] 
         },
         {
-          "img": "img/producto/06d_Pirometria_termex.pvc.pvc.png",
+          "img": "http://www.felrro.com.ar/img/producto/06d_Pirometria_termex.pvc.pvc.png",
           "nombre": "Par Redondo Blindado",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +135ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: ET elastómero termoplástico",
-            "four": "Vaina: ET elastómero termoplástico",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +135ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: ET elastómero termoplástico"},
+            {"detail": "Vaina: ET elastómero termoplástico"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         }
       ],
       "tablas": [
         {
           "titulo": "Par Plano",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano</strong></p><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 40</td><td>23</td><td>5,2 x 3,5</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 50</td><td>45</td><td>6,4 x 4,1</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 90</td><td>15</td><td>4,6 x 3,2</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 00</td><td>23</td><td>5,2 x 3,5</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 10</td><td>29</td><td>5,6 x 3,7</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 20</td><td>35</td><td>6,0 x 3,9</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 30</td><td>51</td><td>7,2 x 4,6</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano Blindado</strong></p><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 40C</td><td>43</td><td>5,8 x 4,1</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 50C</td><td>71</td><td>7,0 x 4,7</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 90C</td><td>33</td><td>5,2 x 3,8</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 00C</td><td>43</td><td>5,8 x 4,1</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 10C</td><td>51</td><td>6,2 x 4,3</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 20C</td><td>58</td><td>6,6 x 4,5</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 30C</td><td>79</td><td>7,8 x 5,2</td></tr></tbody></table>"
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 40</td><td>23</td><td>5,2 x 3,5</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 50</td><td>45</td><td>6,4 x 4,1</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 90</td><td>15</td><td>4,6 x 3,2</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 00</td><td>23</td><td>5,2 x 3,5</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 10</td><td>29</td><td>5,6 x 3,7</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 20</td><td>35</td><td>6,0 x 3,9</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 30</td><td>51</td><td>7,2 x 4,6</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Plano Blindado",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 40C</td><td>43</td><td>5,8 x 4,1</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 50C</td><td>71</td><td>7,0 x 4,7</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 90C</td><td>33</td><td>5,2 x 3,8</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 00C</td><td>43</td><td>5,8 x 4,1</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 10C</td><td>51</td><td>6,2 x 4,3</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 20C</td><td>58</td><td>6,6 x 4,5</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 1 <sup> 1 </sup> 30C</td><td>79</td><td>7,8 x 5,2</td></tr></tbody></table>"
         },
         {
           "titulo": "Par Redondo",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Redondo</strong></p><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 40</td><td>33</td><td>5,2</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 50</td><td>64</td><td>6,4</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 90</td><td>23</td><td>4,6</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 00</td><td>33</td><td>5,2</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 10</td><td>41</td><td>5,6</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 20</td><td>49</td><td>6</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 30</td><td>72</td><td>7,2</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Redondo Blindado</strong></p><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 40C</td><td>53</td><td>5,8</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 50C</td><td>90</td><td>7</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 90C</td><td>41</td><td>5,2</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 00C</td><td>53</td><td>5,8</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 10C</td><td>63</td><td>6,2</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 20C</td><td>72</td><td>6,6</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 30C</td><td>100</td><td>7,8</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Digito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 40</td><td>33</td><td>5,2</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 50</td><td>64</td><td>6,4</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 90</td><td>23</td><td>4,6</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 00</td><td>33</td><td>5,2</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 10</td><td>41</td><td>5,6</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 20</td><td>49</td><td>6</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 30</td><td>72</td><td>7,2</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Redondo Blindado",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>1x0,80</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 40C</td><td>53</td><td>5,8</td></tr><tr><td>Rígido</td><td>1x1,29</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 50C</td><td>90</td><td>7</td></tr><tr><td>Flexible</td><td>7x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 90C</td><td>41</td><td>5,2</td></tr><tr><td>Flexible</td><td>16x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 00C</td><td>53</td><td>5,8</td></tr><tr><td>Flexible</td><td>24x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 10C</td><td>63</td><td>6,2</td></tr><tr><td>Flexible</td><td>32x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 20C</td><td>72</td><td>6,6</td></tr><tr><td>Flexible</td><td>48x0,20</td><td class=\"bold\">MV/MZ 2 <sup> 1 </sup> 30C</td><td>100</td><td>7,8</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Digito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
         }
       ],
       "detalle": "Cables utilizados para sistemas de medición y traslado de señales de temperatura desde la termocupla hasta la junta de referencia del instrumento. De acuerdo al tipo de termocupla y tipo de servicio se fabrican con diferentes materiales conductores y aislantes. Cuando se conectan las termocuplas a los instrumentos, es esencial usar un cable que tenga la misma fuerza electromotriz (fem) de salida que la termocupla, de lo contrario se producirán en la unión fem espurias. La mejor solución es utilizar aleaciones para los cables iguales a la de la termocupla (cable de extensión). Una alternativa más barata es usar cables de compensación, las aleaciones de estos son diferentes a la de la termocupla, pero tienen la misma fem de salida en un rango limitado de temperatura.",
-      "pdf_url": "http://felrro.com/pdf/pirometria/2-TERMEX_ET_ET.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/pirometria/2-TERMEX_ET_ET.pdf"
     },
     {
       "id": "8",
       "familia": "Pirometría",
+      "color" : "#f21818",
       "producto": "TERMEX® Par plano ó redondo",
-      "img": "img/producto/08_Pirometria_termex.si.si-portada.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Pirometria_termex.si.si-portada.png",
       "subtitulo": "Cable par de extensión y compensado para pirometría",
       "aislacion": "SI",
       "vaina": "SI",
       "subproducto": [
         {
-          "img": "img/producto/08_Pirometria_termex.si.si.png",
+          "img": "http://www.felrro.com.ar/img/producto/08_Pirometria_termex.si.si.png",
           "nombre": "Par Plano",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +200ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: SI Caucho silicona",
-            "four": "Vaina: SI Caucho silicona",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +200ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: SI Caucho silicona"},
+            {"detail": "Vaina: SI Caucho silicona"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/08b_Pirometria_termex.si.si.png",
+          "img": "http://www.felrro.com.ar/img/producto/08b_Pirometria_termex.si.si.png",
           "nombre": "Par Redondo",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +200ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: SI Caucho silicona",
-            "four": "Vaina: SI Caucho silicona",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +200ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: SI Caucho silicona"},
+            {"detail": "Vaina: SI Caucho silicona"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/08c_Pirometria_termex.si.si.png",
+          "img": "http://www.felrro.com.ar/img/producto/08c_Pirometria_termex.si.si.png",
           "nombre": "Par Plano Blindado",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +200ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: SI Caucho silicona",
-            "four": "Vaina: SI Caucho silicona",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +200ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: SI Caucho silicona"},
+            {"detail": "Vaina: SI Caucho silicona"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
-          "img": "img/producto/08d_Pirometria_termex.si.si.png",
+          "img": "http://www.felrro.com.ar/img/producto/08d_Pirometria_termex.si.si.png",
           "nombre": "Par Redondo Blindado",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +200ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: SI Caucho silicona",
-            "four": "Vaina: SI Caucho silicona",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +200ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: SI Caucho silicona"},
+            {"detail": "Vaina: SI Caucho silicona"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         }
       ],
       "tablas": [
         {
           "titulo": "Par Plano",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 40</td><td>29</td><td>5,1 x 3,3</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 50</td><td>53</td><td>6,8 x 4,1</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 90</td><td>20</td><td>4,8 x 3,0</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 00</td><td>29</td><td>5,1 x 3,3</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 10</td><td>36</td><td>6,1 x 3,7</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 20</td><td>47</td><td>6,4 x 3,8</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 30</td><td>64</td><td>7,2 x 4,4</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano Blindado</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 40C</td><td>40</td><td>5,7 x 3,9</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 50C</td><td>71</td><td>7,4 x 4,7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 90C</td><td>28</td><td>6,4 x 3,6</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 00C</td><td>40</td><td>5,7 x 3,9</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 10C</td><td>50</td><td>6,7 x 4,3</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 20C</td><td>62</td><td>7,0 x 4,4</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 30C</td><td>85</td><td>7,8 x 5,0</td></tr></tbody></table>"
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 40</td><td>29</td><td>5,1 x 3,3</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 50</td><td>53</td><td>6,8 x 4,1</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 90</td><td>20</td><td>4,8 x 3,0</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 00</td><td>29</td><td>5,1 x 3,3</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 10</td><td>36</td><td>6,1 x 3,7</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 20</td><td>47</td><td>6,4 x 3,8</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 30</td><td>64</td><td>7,2 x 4,4</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Plano Blindado",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 40C</td><td>40</td><td>5,7 x 3,9</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 50C</td><td>71</td><td>7,4 x 4,7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 90C</td><td>28</td><td>6,4 x 3,6</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 00C</td><td>40</td><td>5,7 x 3,9</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 10C</td><td>50</td><td>6,7 x 4,3</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 20C</td><td>62</td><td>7,0 x 4,4</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 3 <sup> 1 </sup> 30C</td><td>85</td><td>7,8 x 5,0</td></tr></tbody></table>"
         },
         {
           "titulo": "Par Redondo",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Redondo</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 40</td><td>45</td><td>5,8</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 50</td><td>71</td><td>7,2</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 90</td><td>22</td><td>4,2</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 00</td><td>45</td><td>5,8</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 10</td><td>51</td><td>6,4</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 20</td><td>64</td><td>6,8</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 30</td><td>79</td><td>7,7</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Redondo Blindado</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 40C</td><td>60</td><td>6,4</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 50C</td><td>99</td><td>7,8</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 90C</td><td>30</td><td>4,8</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 00C</td><td>60</td><td>6,4</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 10C</td><td>71</td><td>7</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 20C</td><td>85</td><td>7,4</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 30C</td><td>105</td><td>8,3</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 40</td><td>45</td><td>5,8</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 50</td><td>71</td><td>7,2</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 90</td><td>22</td><td>4,2</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 00</td><td>45</td><td>5,8</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 10</td><td>51</td><td>6,4</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 20</td><td>64</td><td>6,8</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 30</td><td>79</td><td>7,7</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Redondo Blindado",
+          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Diámetro</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 40C</td><td>60</td><td>6,4</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 50C</td><td>99</td><td>7,8</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 90C</td><td>30</td><td>4,8</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 00C</td><td>60</td><td>6,4</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 10C</td><td>71</td><td>7</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 20C</td><td>85</td><td>7,4</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 30C</td><td>105</td><td>8,3</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
         }
       ],
       "detalle": "Cables utilizados para sistemas de medición y traslado de señales de temperatura desde la termocupla hasta la junta de referencia del instrumento. De acuerdo al tipo de termocupla y tipo de servicio se fabrican con diferentes materiales conductores y aislantes. Cuando se conectan las termocuplas a los instrumentos, es esencial usar un cable que tenga la misma fuerza electromotriz (fem) de salida que la termocupla, de lo contrario se producirán en la unión fem espurias. La mejor solución es utilizar aleaciones para los cables iguales a la de la termocupla (cable de extensión). Una alternativa más barata es usar cables de compensación, las aleaciones de estos son diferentes a la de la termocupla, pero tienen la misma fem de salida en un rango limitado de temperatura.",
-      "pdf_url": "http://felrro.com/pdf/pirometria/3-TERMEX_SI_SI.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/pirometria/3-TERMEX_SI_SI.pdf"
     },
     {
-      "id": "9",
+      "id": "91",
       "familia": "Pirometría",
+      "color" : "#f21818",
       "producto": "TERMEX® Par plano",
-      "img": "img/producto/09_Pirometria_termex.si.fv-portada.png",
+      "img": "http://www.felrro.com.ar/img/producto/09_Pirometria_termex.si.fv-portada.png",
       "subtitulo": "",
       "aislacion": "SI/FV",
       "vaina": "FV",
       "subproducto": [
         {
           "nombre": "Par plano SI/FV",
-          "img": "img/producto/09_Pirometria_termex.si.fv.png",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +220ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: Caucho silicona",
-            "four": "Vaina: Fibra de vidrio",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "img": "http://www.felrro.com.ar/img/producto/09_Pirometria_termex.si.fv.png",
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +220ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: SI Caucho silicona"},
+            {"detail": "Vaina: Fibra de vidrio"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
           "nombre": "Par plano FV/FV",
-          "img": "img/producto/09b_Pirometria_termex.si.fv.png",
-          "details": {
-            "one": "Temperatura de Trabajo: -30º +250ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: Fibra de vidrio",
-            "four": "Vaina: Fibra de vidrio",
-            "five": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "img": "http://www.felrro.com.ar/img/producto/09b_Pirometria_termex.si.fv.png",
+          "details": [
+            {"detail": "Temperatura de Trabajo: -30º +250ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: Fibra de vidrio"},
+            {"detail": "Vaina: Fibra de vidrio"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
           "nombre": "Par plano blindado SI/FV",
-          "img": "img/producto/09c_Pirometria_termex.si.fv.png",
-          "details": {
-            "one": "Temperatura de Trabajo: -60º +220ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: Caucho silicona",
-            "four": "Vaina: Fibra de vidrio",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "img": "http://www.felrro.com.ar/img/producto/09c_Pirometria_termex.si.fv.png",
+          "details": [
+            {"detail": "Temperatura de Trabajo: -60º +220ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: SI Caucho silicona"},
+            {"detail": "Vaina: Fibra de vidrio"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         },
         {
           "nombre": "Par plano blindado FV/FV",
-          "img": "img/producto/09d_Pirometria_termex.si.fv.png",
-          "details": {
-            "one": "Temperatura de Trabajo: -30º +250ºC",
-            "two": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX",
-            "three": "Aislación: Fibra de vidrio",
-            "four": "Vaina: Fibra de vidrio",
-            "five": "Blindaje: Malla cobre estañado",
-            "six": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"
-          }
+          "img": "http://www.felrro.com.ar/img/producto/09d_Pirometria_termex.si.fv.png",
+          "details": [
+            {"detail": "Temperatura de Trabajo: -30º +250ºC"},
+            {"detail": "Conductor: KX, KC/WX, EX, TX, JX, SC/RC, NX"},
+            {"detail": "Aislación: Fibra de vidrio"},
+            {"detail": "Vaina: Fibra de vidrio"},
+            {"detail": "Blindaje: Malla cobre estañado"},
+            {"detail": "Identificación: ANSI MC 96-1 ó IEC 584-3 ó DIN 43714"}
+          ]
         }
       ],
       "tablas": [
         {
-          "titulo": "Par Plano",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano SI/FV</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0.5</td><td>1x0,80</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 40</td><td>26</td><td>4,5 x 2,6</td></tr><tr><td>Rígido</td><td>1.31</td><td>1x1,29</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 50</td><td>39</td><td>5,7 x 3,1</td></tr><tr><td>Flexible</td><td>0.22</td><td>7x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 90</td><td>18</td><td>4,1 x 2,4</td></tr><tr><td>Flexible</td><td>0.5</td><td>16x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 00</td><td>26</td><td>4,5 x 2,6</td></tr><tr><td>Flexible</td><td>0.75</td><td>24x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 10</td><td>30</td><td>5,2 x 2,8</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 20</td><td>35</td><td>5,4 x 3,0</td></tr><tr><td>Flexible</td><td>1.5</td><td>48x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 30</td><td>45</td><td>5,9 x 3,2</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano FV/FV</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 40C</td><td>17</td><td>3,8 x 2,1</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 50C</td><td>29</td><td>4,9 x 2,6</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 90C</td><td>14</td><td>3,4 x 1,9</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 00C</td><td>17</td><td>3,8 x 2,1</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 10C</td><td>19</td><td>4,3 x 2,3</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 20C</td><td>24</td><td>4,5 x 2,4</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 30C</td><td>36</td><td>4,8 x 2,7</td></tr></tbody></table>"
+          "titulo": "Par Plano SI / FV",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0.5</td><td>1x0,80</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 40</td><td>26</td><td>4,5 x 2,6</td></tr><tr><td>Rígido</td><td>1.31</td><td>1x1,29</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 50</td><td>39</td><td>5,7 x 3,1</td></tr><tr><td>Flexible</td><td>0.22</td><td>7x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 90</td><td>18</td><td>4,1 x 2,4</td></tr><tr><td>Flexible</td><td>0.5</td><td>16x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 00</td><td>26</td><td>4,5 x 2,6</td></tr><tr><td>Flexible</td><td>0.75</td><td>24x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 10</td><td>30</td><td>5,2 x 2,8</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 20</td><td>35</td><td>5,4 x 3,0</td></tr><tr><td>Flexible</td><td>1.5</td><td>48x0,20</td><td class=\"bold\">MX/MR 0 <sup> 1 </sup> 30</td><td>45</td><td>5,9 x 3,2</td></tr></tbody></table>"
         },
         {
-          "titulo": "Par Plano Blindado",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano Blindado SI/FV</strong></p><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 40</td><td>41</td><td>5,1 x 3,2</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 50</td><td>64</td><td>6,3 x 3,7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 90</td><td>28</td><td>4,7 x 3,0</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 00</td><td>41</td><td>5,1 x 3,2</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 10</td><td>50</td><td>5,8 x 3,4</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 20</td><td>60</td><td>6,0 x 3,6</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 30</td><td>75</td><td>6,5 x 3,8</td></tr></tbody></table>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Par Plano Blindado FV/FV</strong></p><thead><tr class=\"tableizer-firstrow\"><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 40C</td><td>33</td><td>4,4 x 2,7</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 50C</td><td>55</td><td>5,5 x 3,2</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 90C</td><td>24</td><td>4,0 x 2,5</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 00C</td><td>33</td><td>4,4 x 2,7</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 10C</td><td>39</td><td>4,9 x 2,9</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 20C</td><td>46</td><td>5,1 x 3,0</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 30C</td><td>66</td><td>5,4 x 3,3</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
+          "titulo": "Par Plano FV / FV",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 40C</td><td>17</td><td>3,8 x 2,1</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 50C</td><td>29</td><td>4,9 x 2,6</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 90C</td><td>14</td><td>3,4 x 1,9</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 00C</td><td>17</td><td>3,8 x 2,1</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 10C</td><td>19</td><td>4,3 x 2,3</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 20C</td><td>24</td><td>4,5 x 2,4</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 4 <sup> 1 </sup> 30C</td><td>36</td><td>4,8 x 2,7</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Plano Blindado SI / FV",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 40</td><td>41</td><td>5,1 x 3,2</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 50</td><td>64</td><td>6,3 x 3,7</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 90</td><td>28</td><td>4,7 x 3,0</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 00</td><td>41</td><td>5,1 x 3,2</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 10</td><td>50</td><td>5,8 x 3,4</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 20</td><td>60</td><td>6,0 x 3,6</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 9 <sup> 1 </sup> 30</td><td>75</td><td>6,5 x 3,8</td></tr></tbody></table>"
+        },
+        {
+          "titulo": "Par Plano Blindado FV / FV",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr class=\"tableizer-firstrow\"><th>Tipo de par</th><th>Sección</th><th>Formación</th><th>Código</th><th>Peso</th><th>Dimensión</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>Nº x mm</th><th>&nbsp;</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Rígido</td><td>0,5</td><td>1x0,80</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 40C</td><td>33</td><td>4,4 x 2,7</td></tr><tr><td>Rígido</td><td>1,31</td><td>1x1,29</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 50C</td><td>55</td><td>5,5 x 3,2</td></tr><tr><td>Flexible</td><td>0,22</td><td>7x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 90C</td><td>24</td><td>4,0 x 2,5</td></tr><tr><td>Flexible</td><td>0,5</td><td>16x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 00C</td><td>33</td><td>4,4 x 2,7</td></tr><tr><td>Flexible</td><td>0,75</td><td>24x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 10C</td><td>39</td><td>4,9 x 2,9</td></tr><tr><td>Flexible</td><td>1</td><td>32x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 20C</td><td>46</td><td>5,1 x 3,0</td></tr><tr><td>Flexible</td><td>1,5</td><td>48x0,20</td><td class=\"bold\">MX/MZ 5 <sup> 1 </sup> 30C</td><td>66</td><td>5,4 x 3,3</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
         }
       ],
       "detalle": "Cables utilizados para sistemas de medición y traslado de señales de temperaturadesde la termocupla hasta la junta de referencia del instrumento. De acuerdo al tipo de termocupla y tipo de servicio se fabrican con diferentes materiales conductores y aislantes. Cuando se conectan las termocuplas a los instrumentos, es esencial usar un cable que tenga la misma fuerza electromotriz (fem) de salida que la termocupla, de lo contrario se producirán en la unión fem espurias. La mejor solución es utilizar aleaciones para los cables iguales a la de la termocupla (cable de extensión). Una alternativa más barata es usar cables de compensación, las aleaciones de estos son diferentes a la de la termocupla, pero tienen la misma fem de salida en un rango limitado de temperatura.",
-      "pdf_url": "http://felrro.com/pdf/pirometria/4-TERMEX_SI_SI.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/pirometria/4-TERMEX_SI_SI.pdf"
     },
     {
       "id": "10",
       "familia": "Pirometría",
+      "color" : "#f21818",
       "producto": "TERMEX® Par y multipar blindado",
-      "img": "img/producto/10_Pirometria_termex.blindado.png",
+      "img": "http://www.felrro.com.ar/img/producto/10_Pirometria_termex.blindado.png",
       "subtitulo": "",
       "aislacion": "PVC",
       "vaina": "PVC HR",
@@ -711,20 +736,23 @@
       ],
       "tablas": [
         {
-          "titulo": "Información Adicional",
-          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>TERMEX Cable par blindado de extensión y compensado PVC / PVCHR</strong></p><thead><tr><th>Tipo</th><th colspan=\"2\">Sección</th><th>Formación</th><th>Código</th><th>Drenaje</th><th>Peso</th><th>Dimensiones</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>AWG</th><th>Nº x mm2</th><th>&nbsp;</th><th>AWG</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Par rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 40</td><td>22</td><td>35</td><td>5,2</td></tr><tr><td>Par rígido</td><td>1,31</td><td>16</td><td>1x1,29</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 50</td><td>18</td><td>63</td><td>6,7</td></tr><tr><td>Par flexible</td><td>0,22</td><td>24</td><td>7x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 90</td><td>24</td><td>27</td><td>4,8</td></tr><tr><td>Par flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 00</td><td>22</td><td>35</td><td>5,4</td></tr><tr><td>Par flexible</td><td>0,75</td><td>18</td><td>24x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 10</td><td>20</td><td>45</td><td>5,8</td></tr><tr><td>Par flexible</td><td>1</td><td>17</td><td>32x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 20</td><td>20</td><td>52</td><td>6,3</td></tr><tr><td>Par flexible</td><td>1,5</td><td>15</td><td>48x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 30</td><td>18</td><td>69</td><td>7,6</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>",
-          "tabla2": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Cable multipar blindado de extensión y compensado PVC / PVCHR</strong></p><thead><tr><th>Nº de pares</th><th>Tipo</th><th colspan=\"2\">Sección</th><th>Formación</th><th>Código</th><th>Drenaje</th><th>Peso</th><th>Dimensiones</th></tr></thead><tbody><tr><th>&nbsp;</th><th>&nbsp;</th><th>mm2</th><th>AWG</th><th>Nº x mm2</th><th>&nbsp;</th><th>AWG</th><th>Kg/Km</th><th>mm</th></tr><tr class=\"verde\"><td colspan=\"9\">Blindaje general</td></tr><tr><td>2</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 402</td><td>22</td><td>54</td><td>8,5</td></tr><tr><td>2</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 002</td><td>22</td><td>54</td><td>8,5</td></tr><tr><td>4</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 404</td><td>22</td><td>96</td><td>10,6</td></tr><tr><td>4</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 004</td><td>22</td><td>96</td><td>10,6</td></tr><tr><td>8</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 408</td><td>22</td><td>179</td><td>13,3</td></tr><tr><td>8</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 008</td><td>22</td><td>179</td><td>13,3</td></tr><tr><td>12</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 412</td><td>22</td><td>245</td><td>15,9</td></tr><tr><td>12</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 012</td><td>22</td><td>245</td><td>15,9</td></tr><tr><td>16</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 416</td><td>22</td><td>331</td><td>17,5</td></tr><tr><td>16</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 016</td><td>22</td><td>331</td><td>17,5</td></tr><tr><td>24</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 424</td><td>22</td><td>462</td><td>20,6</td></tr><tr><td>24</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 024</td><td>22</td><td>462</td><td>20,6</td></tr><tr><td>36</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 436</td><td>22</td><td>702</td><td>24,2</td></tr><tr><td>36</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 036</td><td>22</td><td>702</td><td>24,2</td></tr><tr class=\"verde\"><td colspan=\"9\">Blindaje individual y general</td></tr><tr><td>2</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 402</td><td>22</td><td>64</td><td>9,2</td></tr><tr><td>2</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 002</td><td>22</td><td>64</td><td>9,2</td></tr><tr><td>4</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 404</td><td>22</td><td>142</td><td>11,6</td></tr><tr><td>4</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 004</td><td>22</td><td>142</td><td>11,6</td></tr><tr><td>8</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 408</td><td>22</td><td>230</td><td>14,6</td></tr><tr><td>8</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 008</td><td>22</td><td>230</td><td>14,6</td></tr><tr><td>12</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 412</td><td>22</td><td>282</td><td>18,0</td></tr><tr><td>12</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 012</td><td>22</td><td>282</td><td>18,0</td></tr><tr><td>16</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 416</td><td>22</td><td>351</td><td>19,3</td></tr><tr><td>16</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 016</td><td>22</td><td>351</td><td>19,3</td></tr><tr><td>24</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 424</td><td>22</td><td>613</td><td>24,7</td></tr><tr><td>24</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 024</td><td>22</td><td>613</td><td>24,7</td></tr><tr><td>36</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 436</td><td>22</td><td>869</td><td>28,1</td></tr><tr><td>36</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 036</td><td>22</td><td>869</td><td>28,1</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 2 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th><th>Blindaje</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td><td>General</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td><td>General</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td><td>General</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td><td>General</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td><td>General</td></tr><tr><td>5</td><td>Kx</td><td>KC/WX</td><td>Ind + Gral</td></tr><tr><td>6</td><td>Jx</td><td>&nbsp;</td><td>Ind + Gral</td></tr><tr><td>7</td><td>&nbsp;</td><td>SC/RC</td><td>Ind + Gral</td></tr><tr><td>8</td><td>Ex</td><td>&nbsp;</td><td>Ind + Gral</td></tr><tr><td>9</td><td>Tx</td><td>&nbsp;</td><td>Ind + Gral</td></tr></tbody></table><p><strong>Donde se indica <sup> 2 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
+          "titulo": "Cable par blindado de extensión y compensado PVC / PVCHR",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Tipo</th><th colspan=\"2\">Sección</th><th>Formación</th><th>Código</th><th>Drenaje</th><th>Peso</th><th>Dimensiones</th></tr></thead><tbody><tr><th>&nbsp;</th><th>mm2</th><th>AWG</th><th>Nº x mm2</th><th>&nbsp;</th><th>AWG</th><th>Kg/Km</th><th>mm</th></tr><tr><td>Par rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 40</td><td>22</td><td>35</td><td>5,2</td></tr><tr><td>Par rígido</td><td>1,31</td><td>16</td><td>1x1,29</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 50</td><td>18</td><td>63</td><td>6,7</td></tr><tr><td>Par flexible</td><td>0,22</td><td>24</td><td>7x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 90</td><td>24</td><td>27</td><td>4,8</td></tr><tr><td>Par flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 00</td><td>22</td><td>35</td><td>5,4</td></tr><tr><td>Par flexible</td><td>0,75</td><td>18</td><td>24x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 10</td><td>20</td><td>45</td><td>5,8</td></tr><tr><td>Par flexible</td><td>1</td><td>17</td><td>32x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 20</td><td>20</td><td>52</td><td>6,3</td></tr><tr><td>Par flexible</td><td>1,5</td><td>15</td><td>48x0,20</td><td class=\"bold\">MX/MR 1 <sup> 1 </sup> 30</td><td>18</td><td>69</td><td>7,6</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 1 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td></tr><tr><td>5</td><td>Nx</td><td></td></tr></tbody></table><p><strong>Donde se indica <sup> 1 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
+        },
+        {
+          "titulo": "Cable multipar blindado de extensión y compensado PVC / PVCHR",
+          "tabla1": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><thead><tr><th>Nº de pares</th><th>Tipo</th><th colspan=\"2\">Sección</th><th>Formación</th><th>Código</th><th>Drenaje</th><th>Peso</th><th>Dimensiones</th></tr></thead><tbody><tr><th>&nbsp;</th><th>&nbsp;</th><th>mm2</th><th>AWG</th><th>Nº x mm2</th><th>&nbsp;</th><th>AWG</th><th>Kg/Km</th><th>mm</th></tr><tr class=\"verde\"><td colspan=\"9\">Blindaje general</td></tr><tr><td>2</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 402</td><td>22</td><td>54</td><td>8,5</td></tr><tr><td>2</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 002</td><td>22</td><td>54</td><td>8,5</td></tr><tr><td>4</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 404</td><td>22</td><td>96</td><td>10,6</td></tr><tr><td>4</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 004</td><td>22</td><td>96</td><td>10,6</td></tr><tr><td>8</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 408</td><td>22</td><td>179</td><td>13,3</td></tr><tr><td>8</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 008</td><td>22</td><td>179</td><td>13,3</td></tr><tr><td>12</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 412</td><td>22</td><td>245</td><td>15,9</td></tr><tr><td>12</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 012</td><td>22</td><td>245</td><td>15,9</td></tr><tr><td>16</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 416</td><td>22</td><td>331</td><td>17,5</td></tr><tr><td>16</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 016</td><td>22</td><td>331</td><td>17,5</td></tr><tr><td>24</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 424</td><td>22</td><td>462</td><td>20,6</td></tr><tr><td>24</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 024</td><td>22</td><td>462</td><td>20,6</td></tr><tr><td>36</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 436</td><td>22</td><td>702</td><td>24,2</td></tr><tr><td>36</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 036</td><td>22</td><td>702</td><td>24,2</td></tr><tr class=\"verde\"><td colspan=\"9\">Blindaje individual y general</td></tr><tr><td>2</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 402</td><td>22</td><td>64</td><td>9,2</td></tr><tr><td>2</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 002</td><td>22</td><td>64</td><td>9,2</td></tr><tr><td>4</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 404</td><td>22</td><td>142</td><td>11,6</td></tr><tr><td>4</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 004</td><td>22</td><td>142</td><td>11,6</td></tr><tr><td>8</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 408</td><td>22</td><td>230</td><td>14,6</td></tr><tr><td>8</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 008</td><td>22</td><td>230</td><td>14,6</td></tr><tr><td>12</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 412</td><td>22</td><td>282</td><td>18,0</td></tr><tr><td>12</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 012</td><td>22</td><td>282</td><td>18,0</td></tr><tr><td>16</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 416</td><td>22</td><td>351</td><td>19,3</td></tr><tr><td>16</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 016</td><td>22</td><td>351</td><td>19,3</td></tr><tr><td>24</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 424</td><td>22</td><td>613</td><td>24,7</td></tr><tr><td>24</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 024</td><td>22</td><td>613</td><td>24,7</td></tr><tr><td>36</td><td>Rígido</td><td>0,5</td><td>20</td><td>1x0,80</td><td class=\"bold\">MX/MR <sup> 2 </sup> 436</td><td>22</td><td>869</td><td>28,1</td></tr><tr><td>36</td><td>Flexible</td><td>0,5</td><td>20</td><td>16x0,20</td><td class=\"bold\">MX/MR <sup> 2 </sup> 036</td><td>22</td><td>869</td><td>28,1</td></tr></tbody></table>&nbsp;<table cellpadding=\"0\" cellspacing=\"0\" class=\"tableizer-table\"><p><strong>Indice <sup> 2 </sup></strong></p><thead><tr class=\"tableizer-firstrow\"><th>Dígito</th><th>Extensión</th><th>Compensado</th><th>Blindaje</th></tr></thead><tbody><tr><td>0</td><td>Kx</td><td>KC/WX</td><td>General</td></tr><tr><td>1</td><td>Jx</td><td>&nbsp;</td><td>General</td></tr><tr><td>2</td><td>&nbsp;</td><td>SC/RC</td><td>General</td></tr><tr><td>3</td><td>Ex</td><td>&nbsp;</td><td>General</td></tr><tr><td>4</td><td>Tx</td><td>&nbsp;</td><td>General</td></tr><tr><td>5</td><td>Kx</td><td>KC/WX</td><td>Ind + Gral</td></tr><tr><td>6</td><td>Jx</td><td>&nbsp;</td><td>Ind + Gral</td></tr><tr><td>7</td><td>&nbsp;</td><td>SC/RC</td><td>Ind + Gral</td></tr><tr><td>8</td><td>Ex</td><td>&nbsp;</td><td>Ind + Gral</td></tr><tr><td>9</td><td>Tx</td><td>&nbsp;</td><td>Ind + Gral</td></tr></tbody></table><p><strong>Donde se indica <sup> 2 </sup>, reemplazarlo por el dígito correspondiente a la extensión o al compensado.</strong></p>"
         }
       ],
       "detalle": "Recomendados para sistemas de medición y traslado de señales de temperatura desde las termocuplas hasta las juntas de referencia de los instrumentos. El blindaje de cinta Aluminio-Mylar provee una cobertura del 100% para proteger en forma integra las señales. La resistencia a los hidrocarburos los hace especialmente aptos para instalaciones en la industria del petróleo, plataformas petroleras y offshore.",
-      "pdf_url": "http://felrro.com/pdf/pirometria/5-TERMEX_SI-FV_FV.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/pirometria/5-TERMEX_SI-FV_FV.pdf"
     },
     {
       "id": "11",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® PAR",
-      "img": "img/producto/01_Datos_feinlec.fieldbus.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Datos_feinlec.fieldbus.png",
       "subtitulo": "",
       "aislacion": "PO",
       "vaina": "PVC",
@@ -761,14 +789,14 @@
         }
       ],
       "detalle": "Par simple diseñado para accionar y llevar las señales de comunicación entre los dispositivos de campo y los equipos que soportan los procesos de aplicación.",
-      "pdf_url": "http://felrro.com/pdf/datos/1-FEINLEC_Fielbus-Profibus.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/1-FEINLEC_Fielbus-Profibus.pdf"
     },
     {
       "id": "12",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® PAR FIELDBUS/PROFIBUS PA",
-      "img": "img/producto/01_Datos_feinlec.fieldbus.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Datos_feinlec.fieldbus.png",
       "subtitulo": "",
       "aislacion": "PO",
       "vaina": "PVC",
@@ -826,14 +854,14 @@
         }
       ],
       "detalle": "Par simple diseñado para accionar y llevar las señales de comunicación entre los dispositivos de campo y los equipos que soportan los procesos de aplicación.",
-      "pdf_url": "http://felrro.com/pdf/datos/1-FEINLEC_Fielbus-Profibus.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/1-FEINLEC_Fielbus-Profibus.pdf"
     },
     {
       "id": "13",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® PAR PROFIBUS DP",
-      "img": "img/producto/01_Datos_feinlec.fieldbus.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Datos_feinlec.fieldbus.png",
       "subtitulo": "",
       "aislacion": "PO",
       "vaina": "PVC",
@@ -874,14 +902,14 @@
         }
       ],
       "detalle": "Par simple diseñado para accionar y llevar las señales de comunicación entre los dispositivos de campo y los equipos que soportan los procesos de aplicación.",
-      "pdf_url": "http://felrro.com/pdf/datos/1-FEINLEC_Fielbus-Profibus.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/1-FEINLEC_Fielbus-Profibus.pdf"
     },
     {
       "id": "14",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® TWINAXIAL",
-      "img": "img/producto/02_Datos_feinlec.twinaxial.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Datos_feinlec.twinaxial.png",
       "subtitulo": "",
       "aislacion": "Compuesto Termoplástico",
       "vaina": "PVC",
@@ -923,14 +951,14 @@
         }
       ],
       "detalle": "Los cables twinaxial son el medio físico para transmitir las señales entre PLC / DCS en sistemas de automatización industrial. Para satisfacer la diversidad de aplicaciones, contamos con diferentes construcciones de cables que brindan la solución indicada en cada caso.",
-      "pdf_url": "http://felrro.com/pdf/datos/2-FEINLEC_Twinaxial.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/2-FEINLEC_Twinaxial.pdf"
     },
     {
       "id": "15",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® ODVA DeviceNet",
-      "img": "img/producto/03_Datos_feinlec.device.net.png",
+      "img": "http://www.felrro.com.ar/img/producto/03_Datos_feinlec.device.net.png",
       "subtitulo": "",
       "aislacion": "CT",
       "vaina": "PVC",
@@ -966,14 +994,14 @@
         }
       ],
       "detalle": "Permite la conectividad entre los dispositivos de campo como sensores, PLC y PCs; con la ventaja que en un mismo cable se puede transmitir datos y potencia.",
-      "pdf_url": "http://felrro.com/pdf/datos/3-FEINLEC_DeviceNet.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/3-FEINLEC_DeviceNet.pdf"
     },
     {
       "id": "16",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multipar Redes LAN",
-      "img": "img/producto/04_Datos_feinlec-redes-lan.png",
+      "img": "http://www.felrro.com.ar/img/producto/04_Datos_feinlec-redes-lan.png",
       "subtitulo": "",
       "aislacion": "PO",
       "vaina": "PVC",
@@ -1017,14 +1045,14 @@
         }
       ],
       "detalle": "Cable UTP Cat5e para uso interior. Gigabit Ethernet, 100BaseTX, 100BaseVG ANYLAN, 155ATM, 622ATM, NTSC/ PAL, AES/EBU, Video digital, RS-422. Cable UTP Cat.5e para uso exterior. Gigabit Ethernet, 100BaseTX, 100BaseVG ANYLAN, 155ATM, 622ATM, NTSC/ PAL, AES/EBU, Audio digital, RS-422, AES51, Compatible RJ-45. Cable FTP Cat.5e para uso exterior. Gigabit Ethernet, 100BaseTX, 100BaseVG ANYLAN, 155ATM, 622ATM, NTSC/ PAL, AES/EBU, Audio digital, RS-422, AES51, Compatible RJ-45.",
-      "pdf_url": "http://felrro.com/pdf/datos/4-FEINLEC_Redes_Lan.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/4-FEINLEC_Redes_Lan.pdf"
     },
     {
       "id": "17",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multiconductor EIA RS-232",
-      "img": "img/producto/05_Datos_feinlec.rs232.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Datos_feinlec.rs232.png",
       "subtitulo": "",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1067,14 +1095,14 @@
         }
       ],
       "detalle": "Cable multiconductor de informática, para aplicaciones EIA RS-232. Diseñados para proteger íntegramente las señales bajo condiciones críticas, reduciendo ruidos e interferencias.",
-      "pdf_url": "http://felrro.com/pdf/datos/5-FEINLEC_RS-232_Mc.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/5-FEINLEC_RS-232_Mc.pdf"
     },
     {
       "id": "18",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multipar EIA RS-232",
-      "img": "img/producto/06_Datos_feinlec.mulipar.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Datos_feinlec.mulipar.png",
       "subtitulo": "",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1117,14 +1145,14 @@
         }
       ],
       "detalle": "Cable multipar de informática, para aplicaciones EIA RS-232. El torcido de a pares permite una transmisión equilibrada de la señal proporcionando inmunidad de ruido mejorada frente a los cables multiconductores.",
-      "pdf_url": "http://felrro.com/pdf/datos/6-FEINLEC_RS-232_Mp.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/6-FEINLEC_RS-232_Mp.pdf"
     },
     {
       "id": "19",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multipar EIA RS-232 y EIA RS-422",
-      "img": "img/producto/07_Datos_feinlec.rs232.rs422.png",
+      "img": "http://www.felrro.com.ar/img/producto/07_Datos_feinlec.rs232.rs422.png",
       "subtitulo": "",
       "aislacion": "PO",
       "vaina": "PVC",
@@ -1164,14 +1192,14 @@
         }
       ],
       "detalle": "Cable baja capacidad de informática, para aplicaciones EIA RS-485 y EIA RS-422. Diseñados para proteger íntegramente las señales bajo condiciones críticas, reduciendo ruidos e interferencias.",
-      "pdf_url": "http://felrro.com/pdf/datos/7-FEINLEC_RS-232-422.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/7-FEINLEC_RS-232-422.pdf"
     },
     {
       "id": "20",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multipar EIA RS-485",
-      "img": "img/producto/08_Datos_feinlec.rs485.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Datos_feinlec.rs485.png",
       "subtitulo": "",
       "aislacion": "PO",
       "vaina": "PVC",
@@ -1211,14 +1239,14 @@
         }
       ],
       "detalle": "Cable baja capacidad de informática, para aplicaciones EIA RS-485. Diseñados para proteger íntegramente las señales bajo condiciones críticas, reduciendo ruidos e interferencias.",
-      "pdf_url": "http://felrro.com/pdf/datos/8-FEINLEC_RS-485.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/8-FEINLEC_RS-485.pdf"
     },
     {
       "id": "21",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multiconductor control, audio e instrumentación",
-      "img": "img/producto/05_Datos_feinlec.rs232.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Datos_feinlec.rs232.png",
       "subtitulo": "",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1260,14 +1288,14 @@
         }
       ],
       "detalle": "Cable multiconductor para uso en control, instrumentación y transmisión de datos donde se requiera proteger las señales de interferencia electromagnéticas (EMI).",
-      "pdf_url": "http://felrro.com/pdf/datos/9-FEINLEC_Multiconductor.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/9-FEINLEC_Multiconductor.pdf"
     },
     {
       "id": "22",
       "familia": "Datos",
+      "color" : "#bfa03b",
       "producto": "FEINLEC® Multipar control, audio e instrumentación",
-      "img": "img/producto/06_Datos_feinlec.mulipar.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Datos_feinlec.mulipar.png",
       "subtitulo": "",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1309,14 +1337,14 @@
         }
       ],
       "detalle": "Cable multipar para uso en control, instrumentación y transmisión de datos donde se requiera proteger las señales de interferencia electromagnéticas (EMI). El torcido de a pares permite una transmisión equilibrada de la señal proporcionando inmunidad de ruido mejorada frente a los cables multiconductores.",
-      "pdf_url": "http://felrro.com/pdf/datos/10-FEINLEC_Multipar.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/datos/10-FEINLEC_Multipar.pdf"
     },
     {
       "id": "23",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "AFLAMEX® Comando",
-      "img": "img/producto/01_Comando_aflamex.comando.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Comando_aflamex.comando.png",
       "subtitulo": "Resistente a la propagación de incendios",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1359,14 +1387,14 @@
         }
       ],
       "detalle": "Cable de comando y señalización resistente a la propagación de incendios. Para ser utilizados en edificios e industrias; tendidos en forma horizontal o vertical. Aptos para instalaciones sobre bandejas, caños ó directamente enterrados.",
-      "pdf_url": "http://felrro.com/pdf/comando/1-AFLAMEX_Comando.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/1-AFLAMEX_Comando.pdf"
     },
     {
       "id": "24",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "AFLAMEX® Armado",
-      "img": "img/producto/02_Comando_aflamex.armado.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Comando_aflamex.armado.png",
       "subtitulo": "Resistente a Hidrocarburos",
       "aislacion": "PVC",
       "vaina": "PVC HR",
@@ -1413,14 +1441,14 @@
         }
       ],
       "detalle": "Cable de comando y señalización para uso pesado. Por su alta resistencia a los hidrocarburos, a la propagación de incendios, rayos UV, baja emisión de humos y gases corrosivos es el cable indicado para uso en la Industria Petrolera. . La armadura metálica le confiere resistencia mecánica y resistencia a los esfuerzo longitudinales. Puede ser instalado en interiores, intemperie ó tendido subterráneo. La armadura metálica le confiere resistencia mecánica y resistencia a los esfuerzo longitudinales.",
-      "pdf_url": "http://felrro.com/pdf/comando/2-AFLAMEX_Armado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/2-AFLAMEX_Armado.pdf"
     },
     {
       "id": "25",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "FUNTEX® Comando",
-      "img": "img/producto/03_Comando_funtex.comando.png",
+      "img": "http://www.felrro.com.ar/img/producto/03_Comando_funtex.comando.png",
       "subtitulo": "Resistente a la propagación de incendios",
       "aislacion": "XLPE",
       "vaina": "PVC",
@@ -1465,14 +1493,14 @@
         }
       ],
       "detalle": "Cable para señalización y transporte de señales de comando, para ser utilizados en edificios e instalaciones industriales, tendidos en forma horizontal o vertical. Aptos para instalaciones sobre bandejas, caños ó directamente enterrados.",
-      "pdf_url": "http://felrro.com/pdf/comando/3-FUNTEX_Comando.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/3-FUNTEX_Comando.pdf"
     },
     {
       "id": "26",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "FUNTEX® Armado",
-      "img": "img/producto/04_Comando_funtex.comando.armado.png",
+      "img": "http://www.felrro.com.ar/img/producto/04_Comando_funtex.comando.armado.png",
       "subtitulo": "Resistente a Hidrocarburos",
       "aislacion": "XLPE",
       "vaina": "PVC HR",
@@ -1516,14 +1544,14 @@
         }
       ],
       "detalle": "Cable de comando y señalización para uso pesado.El aislamiento de XLPE le proporciona a estos cables una temperatura de operación de 90°C dándole mejores condiciones de comportamiento ante sobrecargas y/o cortocircuitos. La construcción de estos cables reúne la excelente protección mecánica que le confiere la armadura, sumada a la gran resistencia de los hidrocarburos, propagación de incendios, rayos UV y baja emisión de humos y gases tóxicos que le confiere la vaina exterior. Pueden ser instalados en interiores, a la intemperie o bien en tendidos subterráneos.",
-      "pdf_url": "http://felrro.com/pdf/comando/4-FUNTEX_Armado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/4-FUNTEX_Armado.pdf"
     },
     {
       "id": "27",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "HALIOGENAX Comando (LS0H)",
-      "img": "img/producto/05_Comando_halogenax.comando.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Comando_halogenax.comando.png",
       "subtitulo": "Libre de Halógenos, baja emisión, FR",
       "aislacion": "XLPE",
       "vaina": "LS0H",
@@ -1563,14 +1591,14 @@
         }
       ],
       "detalle": "Cables de comando y señalización en baja tensión apropiados para el cableado en inmuebles con alta concentración de personasy/o difícil evacuación; como aeropuertos, túneles de subterráneo, hoteles, hospitales, locales comerciales, discotecas, instalaciones industriales, etc. En caso de incendio, los cables HALIOGENAX, aseguran una buena visibilidad y baja emisión de humos tóxicos facilitando la evacuación. La ausencia de halógenos evita la corrosión protegiendo equipos e instalaciones; y la resistencia a la llama evita la propagación del incendio.",
-      "pdf_url": "http://felrro.com/pdf/comando/11-HALOGENAX_TC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/11-HALOGENAX_TC.pdf"
     },
     {
       "id": "28",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "FIREX® Comando",
-      "img": "img/producto/06_Comando_firex.comando.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Comando_firex.comando.png",
       "subtitulo": "Resistente al Fuego",
       "aislacion": "MICA/XLPE",
       "vaina": "PVC",
@@ -1617,14 +1645,14 @@
         }
       ],
       "detalle": "Cable para comando y señalización resistentes al fuego. En caso de incendio, los cables FIREX se mantienen energizados permitiendo que funcionen sistemas imprescindibles en caso de siniestro. Están fabricados con un compuesto de aislación (CI) especialmente formulado para resistir la llama directa y carbonizar conservando gran parte de sus cualidades dieléctricas y físicas, de manera de no interrumpir el abastecimiento normal por cortocircuito. Como así también cesar su combustión al ser apartados de la fuente de calor. Aptos para ser utilizados en edificios e instalaciones industriales tendidos en forma horizontal ó vertical, sobre bandejas, caños ó directamente enterrados.",
-      "pdf_url": "http://felrro.com/pdf/comando/6-FIREX_Comando.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/6-FIREX_Comando.pdf"
     },
     {
       "id": "29",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "AFLAMEX® Control flexible",
-      "img": "img/producto/07_Comando_aflamex.control.flexible.png",
+      "img": "http://www.felrro.com.ar/img/producto/07_Comando_aflamex.control.flexible.png",
       "subtitulo": "450/750V Resistente a la propagación de incendios",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1667,14 +1695,14 @@
         }
       ],
       "detalle": "Cable de control de fácil maniobrabilidad gracias a su flexibilidad. Para ser utilizados en instalaciones industriales, tableros, maquinas, etc; tendidos en forma horizontal o vertical. Aptos para instalaciones sobre bandejas ó caños.",
-      "pdf_url": "http://felrro.com/pdf/comando/7-AFLAMEX_Control_Flexible.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/7-AFLAMEX_Control_Flexible.pdf"
     },
     {
       "id": "30",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "AFLAMEX® Tray Cable",
-      "img": "img/producto/08_Comando_aflamex.tray.cable.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Comando_aflamex.tray.cable.png",
       "subtitulo": "600V Calibre AWG",
       "aislacion": "PVC",
       "vaina": "PVC HR",
@@ -1723,14 +1751,14 @@
         }
       ],
       "detalle": "<p>Cable para uso general en circuitos de control de 600V, manejo de señales, telemedición, telecontrol, supervisión y registro de control. Aprobados para instalaciones interiores ó exteriores, en bandejas portacables, conductos ó subterráneo.</p><br><h6>Serie</h6><p>La serie de Cables de Control TC elaborado por Felrro contempla las siguientes variantes: AFLAMEX SP: aislación PVC y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <br> AFLAMEX SY: aislación PVC/Nylon y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <br> FUNTEX CP: aislación XLPE y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <br> HALIOGENAX ZP: aislación XLPE y vaina compuesto LSOH para instalación en ambientes con alta concentración de personas.</p>",
-      "pdf_url": "http://felrro.com/pdf/comando/8-AFLAMEX_TC_PVC_PVC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/8-AFLAMEX_TC_PVC_PVC.pdf"
     },
     {
       "id": "31",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "AFLAMEX® Tray Cable",
-      "img": "img/producto/09_Comando_aflamex.tray.cable.pvc.nylon.png",
+      "img": "http://www.felrro.com.ar/img/producto/09_Comando_aflamex.tray.cable.pvc.nylon.png",
       "subtitulo": "600V (THHN o THWN) (TFN o TFFN)",
       "aislacion": "PVC / Nylon",
       "vaina": "PVC HR",
@@ -1785,8 +1813,9 @@
     {
       "id": "32",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "FUNTEX Tray Cable",
-      "img": "img/producto/09_Comando_aflamex.tray.cable.pvc.nylon.png",
+      "img": "http://www.felrro.com.ar/img/producto/09_Comando_aflamex.tray.cable.pvc.nylon.png",
       "subtitulo": "600V Calibre AWG (XHHW)",
       "aislacion": "XLPE",
       "vaina": "PVC HR",
@@ -1841,8 +1870,9 @@
     {
       "id": "33",
       "familia": "Comando",
+      "color" : "#1c43ad",
       "producto": "HALIOGENAX Tray cable",
-      "img": "img/producto/05_Comando_halogenax.comando.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Comando_halogenax.comando.png",
       "subtitulo": "600V Libre de Halógenos, baja emisión, FR",
       "aislacion": "XLPE",
       "vaina": "PVC HR",
@@ -1882,14 +1912,14 @@
         }
       ],
       "detalle": "Cable para uso general en circuitos de control de 600V, manejo de señales, telemedición, telecontrol, supervisión y registro de control. Aprobados para instalaciones interiores ó exteriores, en bandejas portacables, conductos ó subterráneo.",
-      "pdf_url": "http://felrro.com/pdf/comando/5-HALOGENAX_Comando.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/comando/5-HALOGENAX_Comando.pdf"
     },
     {
       "id": "34",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "AFLAMEX Potencia",
-      "img": "img/producto/01_Potencia_aflamex.potencia.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Potencia_aflamex.potencia.png",
       "subtitulo": "Resistente a la propagación de incendios",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1929,14 +1959,14 @@
         }
       ],
       "detalle": "Cable para distribución de energía resistente a la propagación de incendios, para ser utilizados en edificios e instalaciones industriales; tendidos en forma horizontal o vertical. Aptos para instalaciones sobre bandejas, caños ó directamente enterrados.",
-      "pdf_url": "http://felrro.com/pdf/potencia/1-AFLAMEX_Potencia.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/1-AFLAMEX_Potencia.pdf"
     },
     {
       "id": "35",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "AFLAMEX Armado",
-      "img": "img/producto/02_Potencia_aflamex.armado.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Potencia_aflamex.armado.png",
       "subtitulo": "Cable de potencia armado",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -1980,14 +2010,14 @@
         }
       ],
       "detalle": "Por su resistencia a los hidrocarburos, a la propagación de incendios, a rayos UV y baja emisión de humos y gases corrosivos es especialmente apto para uso en la Industria Petrolera. Puede ser instalado en interiores, a la intemperie o en tendido subterráneo. La armadura metálica le confiere protección mecánica y resistencia a los esfuerzos de tendido.",
-      "pdf_url": "http://felrro.com/pdf/potencia/2-AFLAMEX_Armado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/2-AFLAMEX_Armado.pdf"
     },
     {
       "id": "36",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "FUNTEX Potencia",
-      "img": "img/producto/03_Potencia_funtex_xlpe.png",
+      "img": "http://www.felrro.com.ar/img/producto/03_Potencia_funtex_xlpe.png",
       "subtitulo": "Resistente a la propagación de incendios",
       "aislacion": "XLPE",
       "vaina": "PVC",
@@ -2027,14 +2057,14 @@
         }
       ],
       "detalle": "Cable de distribución de energía y alimentación, para ser utilizados en edificios e instalaciones industriales tendidos en forma horizontal o vertical. Aptos para instalaciones sobre bandejas, caños ó directamente enterrados.",
-      "pdf_url": "http://felrro.com/pdf/potencia/3-FUNTEX_Potencia.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/3-FUNTEX_Potencia.pdf"
     },
     {
       "id": "37",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "FUNTEX Armado",
-      "img": "img/producto/04_Potencia_funtex.armado.png",
+      "img": "http://www.felrro.com.ar/img/producto/04_Potencia_funtex.armado.png",
       "subtitulo": "Cable de potencia armado",
       "aislacion": "XLPE",
       "vaina": "PVC",
@@ -2078,14 +2108,14 @@
         }
       ],
       "detalle": "Cable de distribución de energía para uso pesado e instalaciones en la Industria Petrolera.La construcción de estos cables reúne la excelente protección mecánica que le confiere la armadura, sumada a la gran resistencia de los hidrocarburos, propagación de incendios, rayos UV y baja emisión de humos y gases tóxicos que le confiere la vaina exterior. Pueden ser instalados en interiores, a la intemperie o bien en tendidos subterráneo.",
-      "pdf_url": "http://felrro.com/pdf/potencia/4-FUNTEX_Armado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/4-FUNTEX_Armado.pdf"
     },
     {
       "id": "38",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "FUNTEX Blindado",
-      "img": "img/producto/05_Potencia_funtex.blindado.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Potencia_funtex.blindado.png",
       "subtitulo": "Para variadores de frecuencia",
       "aislacion": "XLPE",
       "vaina": "PVC",
@@ -2130,14 +2160,14 @@
         }
       ],
       "detalle": "Cable blindado para alimentación de motores comandados por variadores de frecuencia. El diseño incluye dos tipos de blindajes que son aplicados según el tamaño del cable: Tipo H: Cinta aluminio- mylar más drenaje más malla trenzada de cobre. Tipo Y: Corona de alambres de cobre más cinta de cobre helicoidal. Ambos proporcionan 100% de cobertura y sección adecuada, para garantizar la máxima protección contra ruidos (EMI/RFI) y baja resistencia camino a tierra. La aislación de XLPE proporciona mas estabilidad eléctrica que el PVC y su menor capacitancia da como resultado: - reducción del pico de tensión en el terminal del motor, extendiendo su vida útil; - reducción del riesgo de descarga corona; - reducción de la magnitud de ondas estacionarias y - aumento de la eficiencia de transferencia de potencia. Otra ventaja competitiva en el diseño de estos cables es su alta flexibilidad que mejora la maniobrabilidad e instalación.",
-      "pdf_url": "http://felrro.com/pdf/potencia/5-FUNTEX_Blindado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/5-FUNTEX_Blindado.pdf"
     },
     {
       "id": "39",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "HALIOGENAX Potencia (LS0H)",
-      "img": "img/producto/06_Potencia_halogenax.potencia.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Potencia_halogenax.potencia.png",
       "subtitulo": "Con baja emision de humos y ausencia de gases halogenados durante la combustión (LS0H)",
       "aislacion": "XLPE",
       "vaina": "LS0H",
@@ -2177,14 +2207,14 @@
         }
       ],
       "detalle": "Cables de distribución de energía en baja tensión para ser utilizados en inmuebles de alta densidad de ocupación y/o difícil evacuación; como aeropuertos, túneles de subterráneo, hoteles, hospitales, locales comerciales, discotecas, instalaciones industriales, etc. En caso de incendio los cables HALIOGENAX aseguran buena visibilidad y baja emisión de humos tóxicos facilitando el escape de las personas afectadas. La ausencia de halógenos evita la corrosión protegiendo equipos e instalaciones; y la resistencia a la llama evita la propagación del incendio.",
-      "pdf_url": "http://felrro.com/pdf/potencia/6-HALOGENAX_Potencia.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/6-HALOGENAX_Potencia.pdf"
     },
     {
       "id": "40",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "FIREX Potencia",
-      "img": "img/producto/07_Potencia_firex.potencia.png",
+      "img": "http://www.felrro.com.ar/img/producto/07_Potencia_firex.potencia.png",
       "subtitulo": "Resistente al fuego",
       "aislacion": "MICA/XLPE",
       "vaina": "PVC",
@@ -2234,14 +2264,14 @@
         }
       ],
       "detalle": "Cable para distribución de energía en sistemas de seguridad donde se requiere mantener energizados los circuitos durante los primeros momentos del incendio. Están fabricados con un encintado de MICA y aislante de XLPE para resistir la llama directa de manera de no interrumpir el abastecimiento normal por cortocircuito, como así también cesar su combustión al ser apartados de la fuente de calor. Aptos para ser utilizados en edificios e instalaciones industriales tendidos en forma horizontal ó vertical, sobre bandejas ó caños.",
-      "pdf_url": "http://felrro.com/pdf/potencia/7-FIREX_Potencia.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/7-FIREX_Potencia.pdf"
     },
     {
       "id": "41",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "AFLAMEX Tray Cable",
-      "img": "img/producto/08_Potencia_aflamex.tray.cable9.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Potencia_aflamex.tray.cable9.png",
       "subtitulo": "600V Calibre AWG",
       "aislacion": "PVC",
       "vaina": "PVC HR",
@@ -2287,14 +2317,14 @@
         }
       ],
       "detalle": "<p>Cable para distribución de energía en baja tensión. Aprobados para instalaciones interiores ó exteriores, en bandejas portacables, conductos ó directamente enterrados.</p><br><h6>Serie</h6><br><p>La serie de cables de potencia TC elaborados por Felrro contempla las siguientes variantes: <strong>AFLAMEX NP: </strong> aislación PVC y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>AFLAMEX NY: </strong> aislación PVC/Nylon y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV.",
-      "pdf_url": "http://felrro.com/pdf/potencia/8-AFLAMEX_TC_PVC_PVC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/8-AFLAMEX_TC_PVC_PVC.pdf"
     },
     {
       "id": "42",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "AFLAMEX Tray Cable",
-      "img": "img/producto/08_Potencia_aflamex.tray.cable9.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Potencia_aflamex.tray.cable9.png",
       "subtitulo": "600V (THHN o THWN) (TFN o TFFN)",
       "aislacion": "PVC / Nylon",
       "vaina": "PVC HR",
@@ -2340,14 +2370,14 @@
         }
       ],
       "detalle": "<p>Cable para distribución de energía en baja tensión. Aprobados para instalaciones interiores ó exteriores, en bandejas portacables, conductos ó directamente enterrados.</p><br><h6>Serie</h6><br><p>La serie de cables de potencia TC elaborados por Felrro contempla las siguientes variantes: <strong>AFLAMEX NP: </strong> aislación PVC y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>AFLAMEX NY: </strong> aislación PVC/Nylon y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>FUNTEX XP: </strong> aislación XLPE y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>HALIOGENAX LP: </strong> aislación XLPE y vaina compuesto LSOH para instalación en locales con alta concentración de personas.</p>",
-      "pdf_url": "http://felrro.com/pdf/potencia/9-AFLAMEX_TC_PVC-Nylon-PVC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/9-AFLAMEX_TC_PVC-Nylon-PVC.pdf"
     },
     {
       "id": "43",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "FUNTEX Tray Cable",
-      "img": "img/producto/08_Potencia_aflamex.tray.cable9.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Potencia_aflamex.tray.cable9.png",
       "subtitulo": "600V Calibre AWG (XHHW)",
       "aislacion": "XLPE",
       "vaina": "PVC HR",
@@ -2390,14 +2420,14 @@
         }
       ],
       "detalle": "<p>Cable para distribución de energía en baja tensión. Aprobados para instalaciones interiores ó exteriores, en bandejas portacables, conductos ó directamente enterrados.</p><br><h6>Serie</h6><br><p><strong>FUNTEX XP: </strong> aislación XLPE y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV.</p>",
-      "pdf_url": "http://felrro.com/pdf/potencia/10-FUNTEX_TC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/10-FUNTEX_TC.pdf"
     },
     {
       "id": "44",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "HALIOGENAX Tray cable",
-      "img": "img/producto/08_Potencia_aflamex.tray.cable9.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Potencia_aflamex.tray.cable9.png",
       "subtitulo": "600V Libre de Halógenos, baja emisión, FR",
       "aislacion": "XLPE",
       "vaina": "PVC HR",
@@ -2440,14 +2470,14 @@
         }
       ],
       "detalle": "<p>Cable para distribución de energía en baja tensión. Aprobados para instalaciones interiores ó exteriores, en bandejas portacables, conductos ó directamente enterrados.</p><br><h6>Serie</h6><br><p>La serie de cables de potencia TC elaborados por Felrro contempla las siguientes variantes: <strong>AFLAMEX NP: </strong> aislación PVC y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>AFLAMEX NY: </strong> aislación PVC/Nylon y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>FUNTEX XP: </strong> aislación XLPE y vaina PVC resistente a la propagación de la llama, hidrocarburos y rayos UV. <strong>HALIOGENAX LP: </strong> aislación XLPE y vaina compuesto LSOH para instalación en locales con alta concentración de personas.</p>",
-      "pdf_url": "http://felrro.com/pdf/potencia/11-HALOGENAX_TC.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/11-HALOGENAX_TC.pdf"
     },
     {
       "id": "45",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "HALIOGENAX UH",
-      "img": "img/producto/17_Flexible_flexton-uh.png",
+      "img": "http://www.felrro.com.ar/img/producto/17_Flexible_flexton-uh.png",
       "subtitulo": "Unipolar libre de halógenos",
       "aislacion": "XLPE",
       "vaina": "LS0H",
@@ -2482,14 +2512,14 @@
         }
       ],
       "detalle": "Cable unipolar flexible para ser utilizados en inmuebles de alta densidad de ocupación y/o difícil evacuación; como aeropuertos, túneles de subterráneo, hoteles, hospitales, locales comerciales, discotecas, instalaciones. Los cables FLEXTON UH aseguran en caso de incendio, una visibilidad clara y baja emsión de humos tóxicos facilitando el escape de las personas afectadas. La ausencia de halógenos evita la corrosión de equipos e instalaciones, y la resistencia a la llama disminuye la probabilidad de propagación del incendio.",
-      "pdf_url": "http://felrro.com/pdf/potencia/13-POTENCIA-Balizamiento.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/13-POTENCIA-Balizamiento.pdf"
     },
     {
       "id": "46",
       "familia": "Potencia",
+      "color" : "#6fc8c9",
       "producto": "BALIZAMIENTO",
-      "img": "img/producto/09_Potencia_Balizamiento.png",
+      "img": "http://www.felrro.com.ar/img/producto/09_Potencia_Balizamiento.png",
       "subtitulo": "Primario y secundario en aeropuertos",
       "aislacion": "XLPE",
       "vaina": "LS0H",
@@ -2511,14 +2541,14 @@
         }
       ],
       "detalle": "Estos cables estan diseñados siguiendo la Advisory Ciscular 150-5345-7F de la FAA (Federal Aviation Administration de lo EEUU). Dicha directiva da como normas constructivas y de ensayos las ICEA S-93-639, S-96-659 Y S-95-658. Se fabrican en varias versiones dependiendo del tipo de instalación.",
-      "pdf_url": "http://felrro.com/pdf/potencia/12-POTENCIA-Halogenax-UH.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/12-POTENCIA-Halogenax-UH.pdf"
     },
     {
       "id": "47",
-      "familia": "Bombas",
+      "familia": "Bombas Sumergibles",
+      "color" : "#ba7975",
       "producto": "SUMPLEX Plano",
-      "img": "img/producto/01_Bombas_sumplex.agua.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Bombas_sumplex.agua.png",
       "subtitulo": "Plano",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -2557,14 +2587,14 @@
         }
       ],
       "detalle": "Cable plano para alimentación de bombas sumergibles. Diseñado con conductores dispuestos en paralelo de manera de reducir la dimensión en un plano y facilitar la instalación en agujeros estrechos. Los cables planos SUMPLEX son fabricados con conductores flexibles que mejoran la maniobrabilidad y con vaina de PVC de alta resistencia mecánica y baja absorción de humedad.",
-      "pdf_url": "http://felrro.com/pdf/bombas/1-SUMPLEX_Plano.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/bombas/1-SUMPLEX_Plano.pdf"
     },
     {
       "id": "48",
-      "familia": "Bombas",
+      "familia": "Bombas Sumergibles",
+      "color" : "#ba7975",
       "producto": "SUMPLEX Redondo",
-      "img": "img/producto/02_Bombas_sumplex.redondo.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Bombas_sumplex.redondo.png",
       "subtitulo": "Redondo",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -2603,14 +2633,14 @@
         }
       ],
       "detalle": "Ideal para proveer energía a bombas sumergibles. Los cables redondos fueron diseñados con conductores flexibles que facilitan su instalación y con compuestos polímeros especiales que aumentan la resistencia a la absorción de humedad y al desgaste mecánico.",
-      "pdf_url": "http://felrro.com/pdf/bombas/2-SUMPLEX_Redondo.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/bombas/2-SUMPLEX_Redondo.pdf"
     },
     {
       "id": "49",
-      "familia": "Bombas",
+      "familia": "Bombas Sumergibles",
+      "color" : "#ba7975",
       "producto": "SUMPLEX Alta Resistencia",
-      "img": "img/producto/03_Bombas_sumplex.alta.resistencia.png",
+      "img": "http://www.felrro.com.ar/img/producto/03_Bombas_sumplex.alta.resistencia.png",
       "subtitulo": "Alta resistencia",
       "aislacion": "PVC",
       "vaina": "ET",
@@ -2649,14 +2679,14 @@
         }
       ],
       "detalle": "Cables planos o redondos, ideales para proveer energía a bombas que se encuentren en contacto directo con agua, agua salada ó aguas residuales (salida de motores sumergidos, transporte de agua, cables de control, etc.) Estos cables fueron diseñados para trabajar en contacto permanente con agua y soportan fácilmente los esfuerzos mecánicos de la instalación. Pueden ser provistos en sección plana, redonda ó plana con conductor de protección eléctrica divisible.",
-      "pdf_url": "http://felrro.com/pdf/bombas/3-SUMPLEX_Alta_Resistencia.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/bombas/3-SUMPLEX_Alta_Resistencia.pdf"
     },
     {
       "id": "50",
-      "familia": "Bombas",
+      "familia": "Bombas Sumergibles",
+      "color" : "#ba7975",
       "producto": "SUMPLEX H07RN-F",
-      "img": "img/producto/04_Bombas_sumplex.altaresistencia.multi.png",
+      "img": "http://www.felrro.com.ar/img/producto/04_Bombas_sumplex.altaresistencia.multi.png",
       "subtitulo": "Multiconductor (tipo H07RN-F)",
       "aislacion": "ET",
       "vaina": "ET",
@@ -2691,14 +2721,14 @@
         }
       ],
       "detalle": "La versatilidad de estos cables permite que sean instalados en lugares secos, al aire libre ó sumergidos en agua. Las prestaciones de los elastómeros termoplásticos tienen un amplio espectro de aplicaciones, como alimentación de bombas sumergibles, instalación de equipos industriales y máquinas herramientas, uso en la industria papelera, petroquímica, alimenticia, etc. Poseen muy buena resistencia mecánica, gran resistencia a los agentes químicos y aceites, excelente estabilidad al medio ambiente y baja absorción de agua. Éstos son la alternativa técnica a los cables H07RN-F.",
-      "pdf_url": "http://felrro.com/pdf/bombas/4-SUMPLEX_Alta_Resistencia_(tipo%20H07RN-F).pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/bombas/4-SUMPLEX_Alta_Resistencia_(tipo%20H07RN-F).pdf"
     },
     {
       "id": "51",
-      "familia": "Bombas",
+      "familia": "Bombas Sumergibles",
+      "color" : "#ba7975",
       "producto": "SUMPLEX Agua y Alimenticios ",
-      "img": "img/producto/01_Bombas_sumplex.agua.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Bombas_sumplex.agua.png",
       "subtitulo": "Agua potable y productos alimenticios",
       "aislacion": "PVC",
       "vaina": "PT",
@@ -2733,14 +2763,14 @@
         }
       ],
       "detalle": "Alimentación de bombas sumergibles que operan en contacto permanente con agua potable ó productos alimenticios. Los compuestos utilizados en la fabricación de estos cables están certificados como grado compatible con agua potable. Pueden ser provistos en sección plana, redonda ó plana con conductor de protección eléctrica divisible.",
-      "pdf_url": "http://felrro.com/pdf/bombas/5-SUMPLEX_Agua.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/bombas/5-SUMPLEX_Agua.pdf"
     },
     {
       "id": "52",
-      "familia": "Bombas",
+      "familia": "Bombas Sumergibles",
+      "color" : "#ba7975",
       "producto": "SUMPLEX",
-      "img": "img/producto/06_Bombas_sumplex.bobinado.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Bombas_sumplex.bobinado.png",
       "subtitulo": "Alambre de Bobinado",
       "aislacion": "Bobinado",
       "vaina": "Cobre",
@@ -2766,14 +2796,14 @@
         }
       ],
       "detalle": "Bobinado de motores eléctricos sumergibles del tipo húmedo. <br> <br><h6>Opciones</h6><br><p>A través del tiempo, el departamento de investigación y desarrollo de Felrro ha ido probando y ensayando una gran variedad de materiales; como así también perfeccionando el proceso productivo incluyendo nuevos equipos, instrumentos y métodos de control, hasta obtener dos tipos de alambres SUMPLEX que nos permiten satisfacer las diferentes necesidades del mercado. <br> <strong>SUMPLEX Premium </strong> son fabricados con un compuesto plástico especialmente desarrollado para bloquear la absorción de agua y mantener las propiedades eléctricas a lo largo del tiempo; como así también conferirle una superficie deslizante y resistente al impacto que mejora los tiempos y la calidad de armado del motor. <br> <strong>SUMPLEX Economic </strong> están aislados con un compuesto de PVC de alta resistencia a la hidrólisis, que le otorga un buen desempeño a través del tiempo a mas bajo costo.</p><h6>Características</h6><br><p>SUMPLEX Premium, Resist. Aislación > 1000 MΩ x km <br> SUMPLEX Economic, Resist. Aislación > 100 MΩ x km</p> ",
-      "pdf_url": "http://felrro.com/pdf/bombas/6-SUMPLEX_Bobinado.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/bombas/6-SUMPLEX_Bobinado.pdf"
     },
     {
       "id": "53",
       "familia": "Soldadura",
+      "color" : "#81a367",
       "producto": "ARMIG UZ",
-      "img": "img/producto/01_Soldadura_armig.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Soldadura_armig.png",
       "subtitulo": "Cable extraflexible para máquina de soldar ARC tipo H01N2-D 100/100V, -60oC a +135oC",
       "aislacion": "ET",
       "vaina": "",
@@ -2810,14 +2840,14 @@
         }
       ],
       "detalle": "Cable unipolar extraflexible para conexiones móviles entre la máquina de soldar y la pinza portaelectrodo. <br> <br><h6>Opciones</h6><br><p>Conductor <br> <strong>ARMIG UZ</strong> Tipo H01N2-D aislado en elastómero termoplástico, con excelente resistencia mecánica (abrasión, fatiga, rasgado), y química (grasas y aceites). <br> <strong>ARMIG UQ</strong> Cable económico, aislado en PVC de buenas propiedades mecánicas y físicas.</p>",
-      "pdf_url": "http://felrro.com/pdf/soldadura/2-ARMIG_UQ.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/soldadura/2-ARMIG_UQ.pdf"
     },
     {
       "id": "54",
       "familia": "Soldadura",
+      "color" : "#81a367",
       "producto": "ARMIG UQ",
-      "img": "img/producto/01_Soldadura_armig.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Soldadura_armig.png",
       "subtitulo": "Cable extraflexible para máquina de soldar ARC 100/100V, -25oC a +70oC",
       "aislacion": "PVC",
       "vaina": "",
@@ -2854,14 +2884,14 @@
         }
       ],
       "detalle": "Cable unipolar extraflexible para conexiones móviles entre la máquina de soldar y la pinza portaelectrodo. <br> <br><h6>Opciones</h6><br><p>Conductor <br> <strong>ARMIG UZ</strong> Tipo H01N2-D aislado en elastómero termoplástico, con excelente resistencia mecánica (abrasión, fatiga, rasgado), y química (grasas y aceites). <br> <strong>ARMIG UQ</strong> Cable económico, aislado en PVC de buenas propiedades mecánicas y físicas.</p>",
-      "pdf_url": "http://felrro.com/pdf/soldadura/1-ARMIG_UZ.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/soldadura/1-ARMIG_UZ.pdf"
     },
     {
       "id": "55",
       "familia": "Soldadura",
+      "color" : "#81a367",
       "producto": "ARMIG QT",
-      "img": "img/producto/02_Soldadura_armig.qr.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Soldadura_armig.qr.png",
       "subtitulo": "Cable torcha para soldadora MIG / MAG",
       "aislacion": "ET",
       "vaina": "",
@@ -2892,14 +2922,14 @@
         }
       ],
       "detalle": "Cable torcha para máquinas de soldar MIG / MAG con tubo para gas, cables de control y conductor concéntrico <br> <br><h6>Opciones</h6><br><p>Conductor <br> <strong>ARMIG QB</strong> Cable aislado en elastómero termoplástico, con excelente resistencia mecánica (abrasión, fatiga, rasgado), y química (grasas y aceites). <br> <strong>ARMIG QR</strong> Cable económico, aislado en PVC de buenas propiedades mecánicas y físicas.</p>",
-      "pdf_url": "http://felrro.com/pdf/soldadura/3-ARMIG_QT.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/soldadura/3-ARMIG_QT.pdf"
     },
     {
       "id": "56",
       "familia": "Soldadura",
+      "color" : "#81a367",
       "producto": "ARMIG QR",
-      "img": "img/producto/02_Soldadura_armig.qr.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Soldadura_armig.qr.png",
       "subtitulo": "Cable torcha para soldadora MIG / MAG",
       "aislacion": "PVC",
       "vaina": "",
@@ -2930,14 +2960,14 @@
         }
       ],
       "detalle": "Cable torcha para máquinas de soldar MIG / MAG con tubo para gas, cables de control y conductor concéntrico <br> <br><h6>Opciones</h6><br><p>Conductor <br> <strong>ARMIG QT</strong> Cable aislado en elastómero termoplástico, con excelente resistencia mecánica (abrasión, fatiga, rasgado), y química (grasas y aceites). <br> <strong>ARMIG QR</strong> Cable económico, aislado en PVC de buenas propiedades mecánicas y físicas.</p>",
-      "pdf_url": "http://felrro.com/pdf/soldadura/4-ARMIG_QR.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/soldadura/4-ARMIG_QR.pdf"
     },
     {
       "id": "57",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON KR / KN",
-      "img": "img/producto/01_Flexible_flexton-kr-kn.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Flexible_flexton-kr-kn.png",
       "subtitulo": "Multipolar flexible resistente al aceite 300/500V, -25oC a +70oC",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -2979,14 +3009,14 @@
         }
       ],
       "detalle": "Cable multipolar flexible para control resistente al aceite y no propagante de incendios. De fácil instalación gracias a su maniobrabilidad y reducido diámetro. Recomendados para uso en toda clase de equipos eléctricos bajo condiciones secas o húmedas, conexiones entre paneles de control y máquinas, sistemas de control, etc.",
-      "pdf_url": "http://felrro.com/pdf/flexible/1-FLEXTON_KR-KN.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/1-FLEXTON_KR-KN.pdf"
     },
     {
       "id": "58",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON KC / KD",
-      "img": "img/producto/02_Flexible_flexton-kc-kd.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Flexible_flexton-kc-kd.png",
       "subtitulo": "Multipolar flexible resistente a la hidrólisis, microorganismos y abrasión 300/500V, -25oC a +70oC",
       "aislacion": "PVC",
       "vaina": "TPU",
@@ -3025,14 +3055,14 @@
         }
       ],
       "detalle": "Recomendado para la industria alimenticia y embotelladora por su óptima resistencia a microorganismos, hidrólisis y agentes químicos. La vaina exterior de poliuretano le confiere gran resistencia a la abrasión y al desgarro convirtiéndolo en la alternativa ideal para instalaciones sujetas a un alto grado de desgaste y uso extremo.",
-      "pdf_url": "http://felrro.com/pdf/flexible/2-FLEXTON_KC-KD.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/2-FLEXTON_KC-KD.pdf"
     },
     {
       "id": "59",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON KX / KV",
-      "img": "img/producto/03_Flexible_flexton-kx--kv.png",
+      "img": "http://www.felrro.com.ar/img/producto/03_Flexible_flexton-kx--kv.png",
       "subtitulo": "Multipolar flexible resistente al aceite y agentes químicos 300/500V, -40oC a +100oC",
       "aislacion": "ET",
       "vaina": "ET",
@@ -3071,14 +3101,14 @@
         }
       ],
       "detalle": "Cable multipolar flexible para control, resistente a los aceites y agentes químicos. De fácil instalación gracias a su maniobrabilidad y reducido diámetro. Aptos para alimentación de botoneras, máquinas herramientas, montacargas y equipos expuestos a severas condiciones de temperatura y químicos.",
-      "pdf_url": "http://felrro.com/pdf/flexible/3-FLEXTON_KX-KV.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/3-FLEXTON_KX-KV.pdf"
     },
     {
       "id": "60",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON KT / KS",
-      "img": "img/producto/04_Flexible_flexton-kt-ks-010.png",
+      "img": "http://www.felrro.com.ar/img/producto/04_Flexible_flexton-kt-ks-010.png",
       "subtitulo": "Multipolar flexible para alta temperatura 300/500V, -60oC a +180oC",
       "aislacion": "SI",
       "vaina": "SI",
@@ -3115,14 +3145,14 @@
         }
       ],
       "detalle": "Cable multipolar flexible para alta temperatura. Aptos para instalaciones en la industria siderúrgica, fabricas de vidrio, cerámica y cemento. Cableados de hornos, fundiciones, sistemas de calefacción, iluminación y cualquier instalación sometida a temperaturas elevadas.",
-      "pdf_url": "http://felrro.com/pdf/flexible/4-FLEXTON_KT-KS.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/4-FLEXTON_KT-KS.pdf"
     },
     {
       "id": "61",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON YR / YN",
-      "img": "img/producto/05_Flexible_flexton-yr--yn.png",
+      "img": "http://www.felrro.com.ar/img/producto/05_Flexible_flexton-yr--yn.png",
       "subtitulo": "Comando ascensor 450/750V, 0oC a +70oC",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -3169,14 +3199,14 @@
         }
       ],
       "detalle": "Cable redondo para comando de ascensor, puente grúa, montacargas y sistemas móviles.",
-      "pdf_url": "http://felrro.com/pdf/flexible/5-FLEXTON_YR-YN.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/5-FLEXTON_YR-YN.pdf"
     },
     {
       "id": "62",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON WR / WN",
-      "img": "img/producto/06_Flexible_flexton-wr--wn.png",
+      "img": "http://www.felrro.com.ar/img/producto/06_Flexible_flexton-wr--wn.png",
       "subtitulo": "Cable plano para alimentación de sistemas móviles, puentes grúa, elevadores, ascensores, etc.",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -3217,14 +3247,14 @@
         }
       ],
       "detalle": "Cable plano para alimentación de sistemas móviles, puentes grúa, elevadores, ascensores, etc.",
-      "pdf_url": "http://felrro.com/pdf/flexible/6-FLEXTON_WR-WN.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/6-FLEXTON_WR-WN.pdf"
     },
     {
       "id": "63",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON WX / WV",
-      "img": "img/producto/07_Flexible_flexton-wx-wv.png",
+      "img": "http://www.felrro.com.ar/img/producto/07_Flexible_flexton-wx-wv.png",
       "subtitulo": "Plano festoon tipo NGFLGÖU 300/500V, -25oC a +100oC",
       "aislacion": "ET",
       "vaina": "ET",
@@ -3264,14 +3294,14 @@
         }
       ],
       "detalle": "Cable plano flexible de festoon, para uso en puentes grúa, elevadores, ascensores, etc. Su fabricación con elastómero termoplástico garantiza flexibilidad en un amplio rango de temperaturas, y excelente resistencia a los aceites, agentes químicos y a la abrasión.",
-      "pdf_url": "http://felrro.com/pdf/flexible/7-FLEXTON_WX-WV.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/7-FLEXTON_WX-WV.pdf"
     },
     {
       "id": "64",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON YP / YV",
-      "img": "img/producto/08_Flexible_flexton-yp--yv.png",
+      "img": "http://www.felrro.com.ar/img/producto/08_Flexible_flexton-yp--yv.png",
       "subtitulo": "Superflexible para movimiento continuo 300/500V, -15oC a +80oC",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -3317,14 +3347,14 @@
         }
       ],
       "detalle": "Cable superflexible para movimiento continuo. Recomendado en instalaciones donde se requieran radios de curvatura pequeños como máquinas de ensamble, robótica y sistemas modernos de manufactura. Posee gran resistencia a los hidrocarburos, a las bajas temperaturas y a la abrasión.",
-      "pdf_url": "http://felrro.com/pdf/flexible/8-FLEXTON_YP-YV.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/8-FLEXTON_YP-YV.pdf"
     },
     {
       "id": "65",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON AW / EW / AX / EX",
-      "img": "img/producto/09_Flexible_flextonaw--ew--ax--ex-01.png",
+      "img": "http://www.felrro.com.ar/img/producto/09_Flexible_flextonaw--ew--ax--ex-01.png",
       "subtitulo": "Potencia y comando para enrollamiento tipo NSHTÖU 600/1000V, -25oC a +100oC",
       "aislacion": "ET",
       "vaina": "ET",
@@ -3376,14 +3406,14 @@
         }
       ],
       "detalle": "Cables de potencia y comando para operaciones con poleas, tambores o rodillos de enrollamiento. Construidos con elastómero termoplástico que garantiza flexibilidad en un amplio rango de temperatura, resistencia a la abrasión, baja absorción de agua y resistencia a aceites y químicos.",
-      "pdf_url": "http://felrro.com/pdf/flexible/10-FLEXTON_AW-EW-AX-EX.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/10-FLEXTON_AW-EW-AX-EX.pdf"
     },
     {
       "id": "66",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON AN / EN / AK / EK",
-      "img": "img/producto/10_Flexible_flexton-an---en---ak---ek.png",
+      "img": "http://www.felrro.com.ar/img/producto/10_Flexible_flexton-an---en---ak---ek.png",
       "subtitulo": "Potencia para uso pesado NSSHÖU 600/1000V, -40oC a +100oC",
       "aislacion": "ET",
       "vaina": "ET",
@@ -3425,14 +3455,14 @@
         }
       ],
       "detalle": "Cable flexible para conexionado de herramientas y máquinas expuestas a grandes esfuerzos mecánicos. Su uso es adecuado para la industria minera, construcción ó en condiciones extremas. Aptos para ser instalados a la intemperie, en áreas secas ó húmedas.",
-      "pdf_url": "http://felrro.com/pdf/flexible/9-FLEXTON_AN-EN-AK-EK.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/9-FLEXTON_AN-EN-AK-EK.pdf"
     },
     {
       "id": "67",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON UG",
-      "img": "img/producto/11_Flexible_flexton-ug.png",
+      "img": "http://www.felrro.com.ar/img/producto/11_Flexible_flexton-ug.png",
       "subtitulo": "Unipolar flexible tipo NSGAFÖU 1,8/3 kV, -60oC a +135oC",
       "aislacion": "ET-FR",
       "vaina": "ET-FR",
@@ -3466,14 +3496,14 @@
         }
       ],
       "detalle": "Cable unipolar flexible de alto voltaje, para aplicación en trenes, buses, cableado de dispositivos y usos especiales en áreas húmedas, cumpliendo con las exigencias de los cables NSGAFÖU. Resistente a la propagación de incendios, aceites y agentes químicos. A diferencia de los cables en EPDM estos proporcionan una superficie más lisa, con menor coeficiente de fricción, facilitando la tarea de pasaje durante la instalación.",
-      "pdf_url": "http://felrro.com/pdf/flexible/11-FLEXTON_UG.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/11-FLEXTON_UG.pdf"
     },
     {
       "id": "68",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON UA",
-      "img": "img/producto/12_Flexible_flexton-ua.png",
+      "img": "http://www.felrro.com.ar/img/producto/12_Flexible_flexton-ua.png",
       "subtitulo": "Unipolar flexible libre de halógenos tipo NSHXAFÖ 1,8/3 kV, -50oC a +135oC",
       "aislacion": "ET-HFFR",
       "vaina": "ET-HFFR",
@@ -3507,14 +3537,14 @@
         }
       ],
       "detalle": "Cable unipolar flexible libre de halógenos y retardante de llama, diseñado para uso en trenes, buses e instalaciones en áreas húmedas; cumpliendo con las exigencias de los cables NSHXAFÖ.",
-      "pdf_url": "http://felrro.com/pdf/flexible/12-FLEXTON_UA.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/12-FLEXTON_UA.pdf"
     },
     {
       "id": "69",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON UR",
-      "img": "img/producto/13_Flexible_flexton-ur.png",
+      "img": "http://www.felrro.com.ar/img/producto/13_Flexible_flexton-ur.png",
       "subtitulo": "Unipolar para instalaciones fijas 450/750V, 70oC",
       "aislacion": "PVC",
       "vaina": "",
@@ -3549,14 +3579,14 @@
         }
       ],
       "detalle": "Cables para instalaciones fijas interiores, de iluminación y distribución de energía en el interior de edificios civiles e industriales, en circuitos primarios, secundarios y derivaciones, instalados en tableros, en conductos situados sobre superficies o empotrados, o en sistemas cerrados analógicos.",
-      "pdf_url": "http://felrro.com/pdf/flexible/13-FLEXTON_UR.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/13-FLEXTON_UR.pdf"
     },
     {
       "id": "70",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "HALIOGENAX UH",
-      "img": "img/producto/17_Flexible_flexton-uh.png",
+      "img": "http://www.felrro.com.ar/img/producto/17_Flexible_flexton-uh.png",
       "subtitulo": "Unipolar libre de halógenos LS0H 450/750V, 80oC",
       "aislacion": "LS0H",
       "vaina": "",
@@ -3591,14 +3621,14 @@
         }
       ],
       "detalle": "Cable unipolar flexible para ser utilizados en inmuebles de alta densidad de ocupación y/o difícil evacuación; como aeropuertos, túneles de subterráneo, hoteles, hospitales, locales comerciales, discotecas, instalaciones industriales, etc. Los cables FLEXTON UH aseguran en caso de incendio, una visibilidad clara y baja emsión de humos tóxicos facilitando el escape de las personas afectadas. La ausencia de halógenos evita la corrosión de equipos e instalaciones, y la resistencia a la llama disminuye la probabilidad de propagación del incendio.",
-      "pdf_url": "http://felrro.com/pdf/potencia/12-POTENCIA-Halogenax-UH.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/potencia/12-POTENCIA-Halogenax-UH.pdf"
     },
     {
       "id": "71",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON UT",
-      "img": "img/producto/14_Flexible_flexton-ut.png",
+      "img": "http://www.felrro.com.ar/img/producto/14_Flexible_flexton-ut.png",
       "subtitulo": "Unipolar resistente al aceite y agentes químicos 450/750V, -60oC a +135oC",
       "aislacion": "ET",
       "vaina": "",
@@ -3633,14 +3663,14 @@
         }
       ],
       "detalle": "Cable unipolar flexible aislado en elastómero termoplástico de excelente resistencia a la abrasión, aceites y agentes químicos.",
-      "pdf_url": "http://felrro.com/pdf/flexible/15-FLEXTON_UT.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/15-FLEXTON_UT.pdf"
     },
     {
       "id": "72",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON US",
-      "img": "img/producto/15_Flexible_flexton-us.png",
+      "img": "http://www.felrro.com.ar/img/producto/15_Flexible_flexton-us.png",
       "subtitulo": "Unipolar para alta temperatura 450/750V, -60oC a +180oC",
       "aislacion": "SI",
       "vaina": "",
@@ -3675,14 +3705,14 @@
         }
       ],
       "detalle": "Cable unipolar flexible para alta temperatura. Aptos para instalaciones en la industria siderúrgica, fábricas de vidrio, cerámica y cemento. Cableados de hornos, fundiciones, sistemas de calefacción, iluminación y cualquier instalación sometida a temperaturas elevadas.",
-      "pdf_url": "http://felrro.com/pdf/flexible/16-FLEXTON_US.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/16-FLEXTON_US.pdf"
     },
     {
       "id": "73",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON TR / TN",
-      "img": "img/producto/16_Flexible_flexton-tr--tn.png",
+      "img": "http://www.felrro.com.ar/img/producto/16_Flexible_flexton-tr--tn.png",
       "subtitulo": "Instalaciones varias TPR 450/750V, -25oC a +70oC",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -3724,14 +3754,14 @@
         }
       ],
       "detalle": "Cable flexible para instalaciones varias, resistente a la propagación de incendios. Apto para ser usado en instalaciones industriales, agrícolas y domésticas; máquinas herramientas, electrodomésticos y aparatos portátiles, exceptuando los de calefacción. De fácil maniobrabilidad gracias a su flexibilidad.",
-      "pdf_url": "http://felrro.com/pdf/flexible/17-FLEXTON_TR-TN.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/17-FLEXTON_TR-TN.pdf"
     },
     {
       "id": "74",
       "familia": "Flexible",
+      "color" : "#c0509c",
       "producto": "FLEXTON UA SOLAR",
-      "img": "img/producto/18_Flexible_Solar-Azul.png",
+      "img": "http://www.felrro.com.ar/img/producto/18_Flexible_Solar-Azul.png",
       "subtitulo": "Para paneles solares 1,8/3 kV, -50oC a +135oC",
       "aislacion": "ET-HFFR",
       "vaina": "ET-HFFR",
@@ -3766,14 +3796,14 @@
         }
       ],
       "detalle": "Cables con muy buena capacidad termica, diseñados para uso permanente en sistemas fotovoltaicos independiente- mente de la estacion del año. No propagan el fuego y no emiten gases toxicos frente al fuego. Aislados en diferentes colores para simplificar la instalacion. Muy buena resistencia a los impactos y a la abrasion. Con marcado secuencial de metros para control y aprovechamiento de los cortes. Estos cables pueden ser utilizados en cableado de paneles solares, para interconectar grupos de paneles y y el conexionado al inversor CD/CA",
-      "pdf_url": "http://felrro.com/pdf/flexible/18-FLEXTON_UA-Solares.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/flexible/18-FLEXTON_UA-Solares.pdf"
     },
     {
       "id": "75",
-      "familia": "Catódica",
+      "familia": "Protección Catódica",
+      "color" : "#83096f",
       "producto": "CATONAX OZ1",
-      "img": "img/producto/01_Catodica_catonax.oz1.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Catodica_catonax.oz1.png",
       "subtitulo": "Tipo A - IRAM 2214",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -3816,14 +3846,14 @@
         }
       ],
       "detalle": "Cable para instalaciones de superficie en terrenos naturales y pozos profundos, donde se prevé que el electrolito no contiene ión cloro u otros iones halógenos.",
-      "pdf_url": "http://felrro.com/pdf/catodica/1-CATONAX_OZ1.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/catodica/1-CATONAX_OZ1.pdf"
     },
     {
       "id": "76",
-      "familia": "Catódica",
+      "familia": "Protección Catódica",
+      "color" : "#83096f",
       "producto": "CATONAX OZ2",
-      "img": "img/producto/01_Catodica_catonax.oz1.png",
+      "img": "http://www.felrro.com.ar/img/producto/01_Catodica_catonax.oz1.png",
       "subtitulo": "Tipo B - IRAM 2214",
       "aislacion": "PE",
       "vaina": "",
@@ -3866,14 +3896,14 @@
         }
       ],
       "detalle": "Cable para instalaciones de superficie en terrenos naturales y pozos profundos, donde se prevé que el electrolito no contiene ión cloro u otros iones halógenos.",
-      "pdf_url": "http://felrro.com/pdf/catodica/2-CATONAX_OZ2.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/catodica/2-CATONAX_OZ2.pdf"
     },
     {
       "id": "77",
-      "familia": "Catódica",
+      "familia": "Protección Catódica",
+      "color" : "#83096f",
       "producto": "CATONAX OZ3",
-      "img": "img/producto/02_Catodica_catonax.oz3.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Catodica_catonax.oz3.png",
       "subtitulo": "TW Tipo I – Especificación técnica GAS202",
       "aislacion": "PVC",
       "vaina": "PVC",
@@ -3916,14 +3946,14 @@
         }
       ],
       "detalle": "Para instalaciones en dispersores profundos, plantas de procesamiento y bombeo se utilizará conductor Tipo II. En instalaciones de ánodos galvánicos y dispersores superficiales, Tipo I.",
-      "pdf_url": "http://felrro.com/pdf/catodica/3-CATONAX_OZ3.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/catodica/3-CATONAX_OZ3.pdf"
     },
     {
       "id": "79",
-      "familia": "Catódica",
+      "familia": "Protección Catódica",
+      "color" : "#83096f",
       "producto": "CATONAX OZ4",
-      "img": "img/producto/02_Catodica_catonax.oz3.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Catodica_catonax.oz3.png",
       "subtitulo": "HMW Tipo II – Especificación técnica GAS202",
       "aislacion": "HDPE",
       "vaina": "",
@@ -3966,14 +3996,14 @@
         }
       ],
       "detalle": "Para instalaciones en dispersores profundos, plantas de procesamiento y bombeo se utilizará conductor Tipo II. En instalaciones de ánodos galvánicos y dispersores superficiales, Tipo I.",
-      "pdf_url": "http://felrro.com/pdf/catodica/4-CATONAX_OZ4.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/catodica/4-CATONAX_OZ4.pdf"
     },
     {
       "id": "78",
-      "familia": "Catódica",
+      "familia": "Protección Catódica",
+      "color" : "#83096f",
       "producto": "CATONAX OZ5",
-      "img": "img/producto/02_Catodica_catonax.oz3.png",
+      "img": "http://www.felrro.com.ar/img/producto/02_Catodica_catonax.oz3.png",
       "subtitulo": "TW Tipo I – Especificación técnica GAS202",
       "aislacion": "PE",
       "vaina": "PVC",
@@ -4016,8 +4046,7 @@
         }
       ],
       "detalle": "Para instalaciones en dispersores profundos, plantas de procesamiento y bombeo se utilizará conductor Tipo II. En instalaciones de ánodos galvánicos y dispersores superficiales, Tipo I.",
-      "pdf_url": "http://felrro.com/pdf/catodica/5-CATONAX_OZ5.pdf",
-      "render_url": "https://florbourg.com.ar/FelrroWeb/renders/Cableejemplo.html"
+      "pdf_url": "http://felrro.com/pdf/catodica/5-CATONAX_OZ5.pdf"
     }
   ]
 }
