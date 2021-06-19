@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
-import { useTheme } from '@material-ui/core/styles'
-import useMediaQuery from '@material-ui/core/useMediaQuery'
-import FontFaceObserver from 'fontfaceobserver'
-import { includes, replace } from 'lodash'
+import { useEffect, useState } from "react";
+import { useTheme } from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import FontFaceObserver from "fontfaceobserver";
+import { includes, replace, filter } from "lodash";
 
 // import { bugsnag } from './bugsnag'
 
@@ -10,28 +10,44 @@ import { includes, replace } from 'lodash'
   return typeof window === 'undefined'
 } */
 
+export const getByFamily = (products, family) => {
+  const familyProducts = filter(products, { familia: family });
+  return familyProducts;
+};
+
+export const getByCode = (code) => (item) => {
+  const isFound1 = item.tablas[0].tabla1.indexOf(code);
+  const isFound2 = item.tablas[0].tabla2.indexOf(code);
+  return isFound1 !== -1 || isFound2 !== -1;
+};
+
+export const getById = (id) => (item) => {
+  const isFound3 = item.id.indexOf(id);
+  return isFound3 !== -1;
+};
+
 /**
  *
  * Checks if fonts has been loaded
  */
 
 export const useFontObserver = () => {
-  const [fontsLoaded, setFontsLoaded] = useState(false)
-  const sourceSansPro = new FontFaceObserver('Source Sans Pro')
+  const [fontsLoaded, setFontsLoaded] = useState(false);
+  const sourceSansPro = new FontFaceObserver("Source Sans Pro");
 
   async function check() {
     try {
-      await sourceSansPro.load()
-      setFontsLoaded(true)
+      await sourceSansPro.load();
+      setFontsLoaded(true);
     } catch (err) {
-      setFontsLoaded(false)
+      setFontsLoaded(false);
     }
   }
 
-  check()
+  check();
 
-  return { fontsLoaded }
-}
+  return { fontsLoaded };
+};
 
 /**
  * Checks if the user is authorised to view a private page
@@ -64,20 +80,20 @@ export const useFontObserver = () => {
 export const useEscapePress = (fn, disabled = false) => {
   useEffect(() => {
     if (disabled) {
-      return () => { }
+      return () => {};
     }
 
     const onKeyDown = (e) => {
       if (e.keyCode === 27) {
-        fn()
+        fn();
       }
-    }
+    };
 
-    document.addEventListener('keydown', onKeyDown, false)
+    document.addEventListener("keydown", onKeyDown, false);
 
-    return () => document.removeEventListener('keydown', onKeyDown, false)
-  }, [disabled, fn])
-}
+    return () => document.removeEventListener("keydown", onKeyDown, false);
+  }, [disabled, fn]);
+};
 
 /**
  * Calls a handler when the user clicks outside an element
@@ -86,20 +102,20 @@ export const useEscapePress = (fn, disabled = false) => {
 export const useOutsideElementClick = (ref, fn, disabled = false) => {
   useEffect(() => {
     if (disabled) {
-      return () => { }
+      return () => {};
     }
 
     function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {
-        fn()
+        fn();
       }
     }
 
-    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener("mousedown", handleClickOutside);
 
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [disabled, fn, ref])
-}
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [disabled, fn, ref]);
+};
 
 /**
  * Calculates the total / completed steps for each
@@ -236,50 +252,50 @@ export const isGuaranteeApproved = status => {
  */
 
 export const useBreakpoints = () => {
-  const theme = useTheme()
-  const keys = [...theme.breakpoints.keys].reverse()
+  const theme = useTheme();
+  const keys = [...theme.breakpoints.keys].reverse();
 
   const currentBreakpoint =
     keys.reduce((output, key) => {
       // eslint-disable-next-line react-hooks/rules-of-hooks
-      const matches = useMediaQuery(theme.breakpoints.up(key))
+      const matches = useMediaQuery(theme.breakpoints.up(key));
 
-      return !output && matches ? key : output
-    }, null) || 'xs'
+      return !output && matches ? key : output;
+    }, null) || "xs";
 
-  const breakpoints = ['xs', 'sm', 'md', 'lg', 'xl']
+  const breakpoints = ["xs", "sm", "md", "lg", "xl"];
   const isUp = (bp) =>
-    breakpoints.indexOf(currentBreakpoint) > breakpoints.indexOf(bp)
+    breakpoints.indexOf(currentBreakpoint) > breakpoints.indexOf(bp);
   const isDown = (bp) =>
-    breakpoints.indexOf(currentBreakpoint) < breakpoints.indexOf(bp)
+    breakpoints.indexOf(currentBreakpoint) < breakpoints.indexOf(bp);
 
   return {
     currentBreakpoint,
     isUp,
-    isDown
-  }
-}
+    isDown,
+  };
+};
 
 export const getWhatsAppData = (t) => ({
   Revisar: t,
-  phone: t('footer.phone'),
-  link: `https://wa.me/${t('footer.phone').replace(/ |\+/g, '')}`
-})
+  phone: t("footer.phone"),
+  link: `https://wa.me/${t("footer.phone").replace(/ |\+/g, "")}`,
+});
 
 export const parseCurrencyToNumber = (amount) => {
-  let numbericString
+  let numbericString;
 
-  const hasDecimals = includes(amount, ',')
+  const hasDecimals = includes(amount, ",");
 
   if (hasDecimals) {
-    numbericString = replace(amount, /[.$]/g, '') // remove $ and thousands separators
-    numbericString = replace(numbericString, ',', '.') // use correct decimal separator
+    numbericString = replace(amount, /[.$]/g, ""); // remove $ and thousands separators
+    numbericString = replace(numbericString, ",", "."); // use correct decimal separator
   } else {
-    numbericString = replace(amount, /\D/g, '') // remove all symbols
+    numbericString = replace(amount, /\D/g, ""); // remove all symbols
   }
 
-  return parseFloat(numbericString, 10)
-}
+  return parseFloat(numbericString, 10);
+};
 
 /* export const parseNationalIdentityCardToNumber = amount => replace(amount, /\./g, '') */
 
@@ -287,28 +303,27 @@ export const parseCurrencyToNumber = (amount) => {
  * Network helpers
  */
 
-
-export const removeFormat = value => {
+export const removeFormat = (value) => {
   if (value) {
-    if (typeof value === 'string') {
+    if (typeof value === "string") {
       const parsed = value
-        .replaceAll('-', '')
-        .replaceAll('.', '')
-        .replaceAll('(', '')
-        .replaceAll(')', '')
-        .replaceAll('R$', '')
-        .replaceAll('S/', '')
-        .replace(/[^\d]+/g, '')
-      return parsed
+        .replaceAll("-", "")
+        .replaceAll(".", "")
+        .replaceAll("(", "")
+        .replaceAll(")", "")
+        .replaceAll("R$", "")
+        .replaceAll("S/", "")
+        .replace(/[^\d]+/g, "");
+      return parsed;
     }
   }
-  return value
-}
+  return value;
+};
 
 export const isNetworkError = (error) =>
-  error.message === 'Network Error' ||
-  error.message === 'Network request failed' ||
-  includes(error.message, 'timeout')
+  error.message === "Network Error" ||
+  error.message === "Network request failed" ||
+  includes(error.message, "timeout");
 
 export const isServerError = (error) =>
-  includes(error.response.status, '5[0-9][0-9]')
+  includes(error.response.status, "5[0-9][0-9]");
