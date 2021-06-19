@@ -62,6 +62,7 @@ const theme = {
     secondary: {},
   },
   navHeight: "100px",
+  footerHeight: "90px",
 };
 
 const muiTheme = createMuiTheme({

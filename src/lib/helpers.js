@@ -4,21 +4,29 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import FontFaceObserver from "fontfaceobserver";
 import { includes, replace, filter } from "lodash";
 
-// import { bugsnag } from './bugsnag'
-
-/* export function isServer() {
-  return typeof window === 'undefined'
-} */
-
 export const getByFamily = (products, family) => {
   const familyProducts = filter(products, { familia: family });
   return familyProducts;
 };
 
 export const getByCode = (code) => (item) => {
-  const isFound1 = item.tablas[0].tabla1.indexOf(code);
-  const isFound2 = item.tablas[0].tabla2.indexOf(code);
-  return isFound1 !== -1 || isFound2 !== -1;
+  if (
+    item.tablas[0]?.tabla1?.includes(code) ||
+    item.tablas[0]?.tabla2?.includes(code)
+  ) {
+    return item;
+  } else if (
+    item.tablas[1]?.tabla1?.includes(code) ||
+    item.tablas[1]?.tabla2?.includes(code)
+  ) {
+    return item;
+  } else if (
+    item.tablas[2]?.tabla1?.includes(code) ||
+    item.tablas[2]?.tabla2?.includes(code)
+  ) {
+    return item;
+  }
+  return false;
 };
 
 export const getById = (id) => (item) => {

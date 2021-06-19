@@ -10,9 +10,17 @@ import styled from "styled-components";
 import Nav from "../components/Nav";
 import AccordionMenu from "../components/products/AccordionMenu";
 
+import ListItem from "@material-ui/core/ListItem";
+import LabelIcon from "@material-ui/icons/Label";
+import DeleteIcon from "@material-ui/icons/Delete";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
+import IconButton from "@material-ui/core/IconButton";
+import LinkIcon from "@material-ui/icons/Link";
+
 import data from "../data/productos.json";
 
-import { getByCode, getById } from "../lib/helpers";
+import { getByCode, getById, getByFamily } from "../lib/helpers";
 
 function Productos() {
   const location = useLocation();
@@ -22,18 +30,35 @@ function Productos() {
 
   const { productos } = data;
   const [selected, setSelected] = useState();
+  const [search, setSearch] = useState();
+
+  /*   console.log(getByFamily(productos, "Datos")); */
+
+  /*   const selectedP = productos.find();
+
+  console.log(selectedP); */
 
   const foundProduct = () => {
     if (code) {
-      return productos.find(getByCode(code));
+      return productos.filter(getByCode(code));
     } else {
       return productos.find(getById(id));
     }
   };
 
   useEffect(() => {
-    const selectedProduct = foundProduct();
-    setSelected(selectedProduct);
+    window.scrollTo(0, 0);
+    if (id) {
+      const selectedProduct = foundProduct();
+      setSearch(null);
+      setSelected(selectedProduct);
+    } else if (code) {
+      setSelected(null);
+      const searching = foundProduct();
+      setSearch(searching);
+      console.log(searching);
+    }
+
     // eslint-disable-next-line
   }, [id, code]);
 
@@ -51,6 +76,34 @@ function Productos() {
             setSelected={setSelected}
           />
         </AccordionMenuContainer>
+        {search && (
+          <ListContainer>
+            <Title>Resultados de Búsqueda</Title>
+            <Underline />
+            {search.map((item) => (
+              <ListItem>
+                <LabelIconWrapper color={item.color} />
+                <ListItemText
+                  primary={item.producto}
+                  secondary={
+                    item.subtitulo
+                      ? item.subtitulo
+                      : `${item.vaina} / ${item.aislacion}`
+                  }
+                />
+                <ListItemSecondaryAction>
+                  <IconButton
+                    edge="end"
+                    href={`/productos?id=${item.id}`}
+                    target="_blank"
+                  >
+                    <LinkIcon />
+                  </IconButton>
+                </ListItemSecondaryAction>
+              </ListItem>
+            ))}
+          </ListContainer>
+        )}
         {selected && (
           <BodyContainer>
             <Title>{selected.producto}</Title>
@@ -185,7 +238,8 @@ const Subtitle = styled.h4`
 const Underline = styled.div`
   width: 100%;
   height: 2px;
-  background-color: ${(props) => (props.color ? props.color : "red")};
+  background-color: ${(props) =>
+    props.color ? props.color : props.theme.colors.primary};
 `;
 
 const ImageContainer = styled.div`
@@ -312,6 +366,22 @@ const TableTitle = styled.h5`
   height: 48px;
   line-height: 48px;
   padding: 0px 20px;
+`;
+
+const ListContainer = styled.div`
+  list-style-type: none;
+  width: 100%;
+  padding: 10px;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    padding: 20px 50px;
+    width: 70%;
+  }
+`;
+
+const LabelIconWrapper = styled(LabelIcon)`
+  color: ${(props) => (props.color ? props.color : props.theme.colors.primary)};
+  margin-right: 20px;
 `;
 
 export default Productos;

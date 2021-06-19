@@ -7,6 +7,8 @@ import Productos from "./pages/Productos";
 import Calidad from "./pages/Calidad";
 import Contacto from "./pages/Contacto";
 
+import Footer from "./components/Footer";
+
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Route exact path="/contacto" component={Contacto} />
         <Route path="*" component={NotFound} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

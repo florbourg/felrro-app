@@ -4,11 +4,13 @@ import PaginationDot from "./PaginationDot";
 
 const styles = {
   root: {
-    position: "absolute",
-    bottom: 8,
-    right: 8,
+    /* position: "relative", */
+    /* bottom: 8,
+    right: 8, */
     display: "flex",
     flexDirection: "row",
+    justifyContent: "center",
+    width: "100%",
   },
 };
 
