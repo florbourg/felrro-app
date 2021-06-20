@@ -10,7 +10,7 @@ import SearchIcon from "@material-ui/icons/Search";
 
 import { useHistory } from "react-router-dom";
 
-export default function CustomizedInputBase() {
+export default function CustomizedInputBase({ setDrawer }) {
   const [code, setCode] = useState();
   const history = useHistory();
 
@@ -20,6 +20,7 @@ export default function CustomizedInputBase() {
 
   const handleInputSearch = () => {
     history.push("/productos?code=" + code);
+    setDrawer();
   };
   return (
     <Container>
@@ -44,9 +45,13 @@ const Container = styled(Paper)`
   padding: 2px 4px;
   display: flex;
   align-items: center;
-  width: 400px;
+  width: 90%;
   border: 1px solid lightgrey;
   margin: 0px 30px;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    width: 400px;
+  }
 `;
 
 const DividerWrapper = styled(Divider)`

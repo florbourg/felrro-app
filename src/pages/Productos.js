@@ -12,12 +12,14 @@ import AccordionMenu from "../components/products/AccordionMenu";
 
 import ListItem from "@material-ui/core/ListItem";
 import LabelIcon from "@material-ui/icons/Label";
-import DeleteIcon from "@material-ui/icons/Delete";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import IconButton from "@material-ui/core/IconButton";
 import LinkIcon from "@material-ui/icons/Link";
 
+import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
+
+import Drawer from "@material-ui/core/Drawer";
 import data from "../data/productos.json";
 
 import { getByCode, getById, getByFamily } from "../lib/helpers";
@@ -34,10 +36,6 @@ function Productos() {
 
   /*   console.log(getByFamily(productos, "Datos")); */
 
-  /*   const selectedP = productos.find();
-
-  console.log(selectedP); */
-
   const foundProduct = () => {
     if (code) {
       return productos.filter(getByCode(code));
@@ -52,6 +50,7 @@ function Productos() {
       const selectedProduct = foundProduct();
       setSearch(null);
       setSelected(selectedProduct);
+      setDrawerVisible(false);
     } else if (code) {
       setSelected(null);
       const searching = foundProduct();
@@ -62,11 +61,35 @@ function Productos() {
     // eslint-disable-next-line
   }, [id, code]);
 
+  const [drawerVisible, setDrawerVisible] = useState(false);
+
+  const toggleDrawer = (setter) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setDrawerVisible(setter);
+  };
+
   return (
     <Root>
       <Nav sticky={true} selected="PRODUCTOS" />
 
       <Main>
+        <DrawerButton onClick={toggleDrawer(true)}>
+          Menú de productos
+          <ExpandMoreOutlinedIcon />{" "}
+        </DrawerButton>
+        <Drawer anchor="top" open={drawerVisible} onClose={toggleDrawer(false)}>
+          <AccordionMenu
+            data={data}
+            selected={selected}
+            setSelected={setSelected}
+          />
+        </Drawer>
         <AccordionMenuContainer>
           {/* <Title>Familias</Title>
           <Underline color="rgba(0, 0, 0, 0.12)"></Underline> */}
@@ -205,6 +228,11 @@ const Root = styled.div`
 
 const Main = styled.div`
   display: flex;
+  flex-direction: column;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    flex-direction: row;
+  }
 `;
 
 const AccordionMenuContainer = styled.div`
@@ -219,6 +247,7 @@ const AccordionMenuContainer = styled.div`
 const BodyContainer = styled.div`
   width: 100%;
   padding: 10px;
+  box-sizing: border-box;
 
   ${(props) => props.theme.mui.breakpoints.up("md")} {
     padding: 20px 50px;
@@ -270,22 +299,31 @@ const Text = styled.p`
 
 const HighlightContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 
 const HighlightCard = styled(Card)`
   border: #67a4c7 2px solid;
   border-color: ${(props) => (props.color ? props.color : "#67a4c7")};
   text-align: center;
-  flex-grow: 1;
-  margin: 0px 5px;
+  margin: 5px;
 
-  :first-child {
-    margin-left: 0px;
-  }
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    flex-grow: 1;
+    margin: 0px 5px;
 
-  :last-child {
-    margin-right: 0px;
+    :first-child {
+      margin-left: 0px;
+    }
+
+    :last-child {
+      margin-right: 0px;
+    }
   }
 `;
 
@@ -299,21 +337,30 @@ const HighlightCardContent = styled(CardContent)`
 
 const DetailsContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 20px 0px;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+  }
 `;
 
 const DetailsCard = styled(Card)`
   border: none;
   text-align: left;
-  width: 49%;
+  width: 100%;
   box-sizing: border-box;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3) !important;
   margin: 5px 0px;
 
-  :nth-child(odd) {
-    margin-right: 10px;
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    width: 49%;
+
+    :nth-child(odd) {
+      margin-right: 10px;
+    }
   }
 `;
 
@@ -334,13 +381,20 @@ const SubproductContainer = styled.div`
 
 const SubproductCard = styled(Card)`
   display: flex;
+  flex-direction: column;
+  align-items: center;
   border: #67a4c7 1px solid;
   border-color: ${(props) => (props.color ? props.color : "#67a4c7")};
   text-align: left;
   width: 100%;
   box-sizing: border-box;
-  //box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3) !important;
   margin: 20px 0px;
+  padding-top: 10px;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    flex-direction: row;
+    padding-top: 0px;
+  }
 `;
 
 const SubproductImage = styled.img`
@@ -382,6 +436,19 @@ const ListContainer = styled.div`
 const LabelIconWrapper = styled(LabelIcon)`
   color: ${(props) => (props.color ? props.color : props.theme.colors.primary)};
   margin-right: 20px;
+`;
+
+const DrawerButton = styled(Button)`
+  width: 95%;
+  background-color: ${(props) => props.theme.colors.primary};
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  color: white;
+  margin: 0px auto 20px;
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    display: none;
+  }
 `;
 
 export default Productos;

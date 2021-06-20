@@ -20,7 +20,7 @@ export default function CustomizedAccordions({ data }) {
 
   //console.log(selected);
   return (
-    <div>
+    <Main>
       {familias.map((item) => (
         <Accordion
           square
@@ -49,9 +49,13 @@ export default function CustomizedAccordions({ data }) {
           </AccordionDetails>
         </Accordion>
       ))}
-    </div>
+    </Main>
   );
 }
+
+const Main = styled.div`
+  margin: 20px 0px;
+`;
 
 const LinksContainer = styled.div`
   display: flex;
@@ -65,12 +69,18 @@ const Accordion = styled(MuiAccordion)`
 `;
 
 const AccordionSummary = styled(MuiAccordionSummary)`
-  margin: 5px 0px;
+  margin: 5px;
   //border-right: 3px solid ${(props) => props.color};
   border-left: 3px solid ${(props) => props.color};
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   height: 55px;
+  width: 97vw;
+  box-sizing: border-box;
+
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    width: auto;
+  }
 `;
 
 const AccordionDetails = styled(MuiAccordionDetails)`

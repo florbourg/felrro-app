@@ -1,3 +1,8 @@
+import iramLogo from "../images/logos/iram.png";
+import iqLogo from "../images/logos/logo_iqnet.png";
+import ulLogo from "../images/logos/ce-4-ul.png";
+import ceLogo from "../images/logos/CE_Approved_logo.png";
+
 export const slidersInfo = [
   {
     title: "INSTRUMENTACION",
@@ -70,5 +75,36 @@ export const slidersInfo = [
     img: "./images/home/B_08_Catodica-M.jpg",
     pdf: "http://felrro.com/pdf/catodica/Catodica.pdf",
     color: "#83096f",
+  },
+];
+
+export const certificados = [
+  {
+    title: "Normas IRAM",
+    description:
+      "Certificación sobre sistemas de Gestión de Calidad bajo las normas ISO 9001:2015",
+    icon: <img src={iramLogo} alt="" />,
+    pdf: "http://www.felrro.com.ar/images/Certificados/CertificadoISO2019.pdf",
+  },
+  {
+    title: "Certificado IQNet",
+    description:
+      "Fabricación y Distribución de cables eléctricos especiales normalizados",
+    icon: <img src={iqLogo} alt="" />,
+    pdf: "http://www.felrro.com.ar/images/Certificados/CertificadoIQNET2019.pdf",
+  },
+  {
+    title: "Sello UL Listed",
+    description:
+      "Certificación en nuestra línea de cables de instrumentación, para las familias FR y FH",
+    icon: <img src={ulLogo} alt="" />,
+    pdf: "http://www.felrro.com/pdf/Certificacion_UL_Listed_2.pdf",
+  },
+  {
+    title: "Certificado CE",
+    description:
+      "Certificado de la Comunidad Europea para nuestros cables tipo taller y unipolares",
+    icon: <img src={ceLogo} alt="" />,
+    pdf: "http://www.felrro.com/pdf/Declaracion%20CE%20de%20conformidad.pdf",
   },
 ];

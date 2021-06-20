@@ -80,7 +80,7 @@ const Nav = ({ showsBorder, sticky, isHome, backgroundColor, selected }) => {
 
         <RightContent>
           <Hidden smDown>
-            <SearchInput />
+            <SearchInput setDrawer={() => {}} />
             <NavLinkList links={links} />
           </Hidden>
 
@@ -132,7 +132,7 @@ Nav.defaultProps = {
 
 const Wrapper = styled.div`
   width: 100%;
-  padding-top: 0;
+  padding: 0px 15px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -141,24 +141,25 @@ const Wrapper = styled.div`
     props.backgroundColor
       ? props.backgroundColor
       : props.theme.colors.background};
-  height: ${(props) =>
-    props.theme.navHeight ? props.theme.navHeight : `${Nav.HEIGHT}px`};
   border-bottom: ${(props) =>
     props.showsBorder ? "solid 1px #e3e3e3" : "none"};
 
   ${(props) => props.theme.mui.breakpoints.up("md")} {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: ${(props) =>
+      props.theme.navHeight ? props.theme.navHeight : `${Nav.HEIGHT}px`};
+    padding: 25px 40px;
   }
-
-  padding-left: 40px;
-  padding-right: 40px;
 `;
 
 const Logo = styled.img`
-  height: 60px;
+  height: 30px;
   pointer-events: none;
-  margin: 20px;
+  margin: 20px 0px;
+  ${(props) => props.theme.mui.breakpoints.up("md")} {
+    height: 60px;
+    pointer-events: none;
+    margin: 20px;
+  }
 `;
 
 const LogoLink = styled(NavLink)`

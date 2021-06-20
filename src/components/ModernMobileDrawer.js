@@ -6,6 +6,8 @@ import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 
+import SearchInput from "../components/SearchInput";
+
 import { useEscapePress, useOutsideElementClick } from "../lib/helpers";
 
 const Nav = {
@@ -89,6 +91,7 @@ const ModernMobileDrawer = ({
           }
         )}
       </Links>
+      <SearchInput setDrawer={handleCloseButtonClick} />
     </Wrapper>
   );
 };
