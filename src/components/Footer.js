@@ -29,8 +29,6 @@ const Main = styled.div`
 
   ${(props) => props.theme.mui.breakpoints.up("md")} {
     display: block;
-    position: fixed;
-    bottom: 0px;
     width: 100%;
     background-color: ${(props) => props.theme.colors.primary};
     margin-top: 20px;

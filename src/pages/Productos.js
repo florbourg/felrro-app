@@ -118,7 +118,7 @@ function Productos() {
                   <IconButton
                     edge="end"
                     href={`/productos?id=${item.id}`}
-                    target="_blank"
+                    //target="_blank"
                   >
                     <LinkIcon />
                   </IconButton>

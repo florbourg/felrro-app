@@ -104,7 +104,7 @@ const Title = styled.h2`
 `;
 
 const P = styled.p`
-  font-weight: 500;
+  font-weight: 400;
   padding: 0px 10px;
 
   ${(props) => props.theme.mui.breakpoints.up("md")} {
