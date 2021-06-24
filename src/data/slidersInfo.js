@@ -11,6 +11,7 @@ export const slidersInfo = [
     img: "./images/home/B_01_Instrumentacion-M.jpg",
     pdf: "http://felrro.com/pdf/instrum/Instrumentacion.pdf",
     color: "#f28518",
+    url: "/productos?id=1",
   },
   {
     title: "POTENCIA",
@@ -19,6 +20,7 @@ export const slidersInfo = [
     img: "./images/home/B_07_Potencia-M.jpg",
     pdf: "http://felrro.com/pdf/potencia/Potencia.pdf",
     color: "#6fc8c9",
+    url: "/productos?id=34",
   },
   {
     title: "FLEXIBLES",
@@ -27,6 +29,7 @@ export const slidersInfo = [
     img: "./images/home/B_05_Flexible-M.jpg",
     pdf: "http://felrro.com/pdf/instrum/Instrumentacion.pdf",
     color: "#c0509c",
+    url: "/productos?id=57",
   },
   {
     title: "BOMBAS SUMERGIBLES",
@@ -35,6 +38,7 @@ export const slidersInfo = [
     img: "./images/home/B_02_Bombas-M.jpg",
     pdf: "http://felrro.com/pdf/bombas/Bombas.pdf",
     color: "#ba7975",
+    url: "/productos?id=47",
   },
   {
     title: "SOLDADURA",
@@ -43,6 +47,7 @@ export const slidersInfo = [
     img: "./images/home/B_09_Soldadura-M.jpg",
     pdf: "http://felrro.com/pdf/soldadura/Soldadura.pdf",
     color: "#81a367",
+    url: "/productos?id=53",
   },
   {
     title: "COMANDO",
@@ -51,6 +56,7 @@ export const slidersInfo = [
     img: "./images/home/B_03_Comando-M.jpg",
     pdf: "http://felrro.com/pdf/comando/Comando.pdf",
     color: "#1c43ad",
+    url: "/productos?id=23",
   },
   {
     title: "DATOS",
@@ -59,6 +65,7 @@ export const slidersInfo = [
     img: "./images/home/B_04_Datos-M.jpg",
     pdf: "http://felrro.com/pdf/datos/Datos.pdf",
     color: "#bfa03b",
+    url: "/productos?id=11",
   },
   {
     title: "PIROMETRIA",
@@ -67,6 +74,7 @@ export const slidersInfo = [
     img: "./images/home/B_06_Pirometria-M.jpg",
     pdf: "http://felrro.com/pdf/pirometria/Pirometria.pdf",
     color: "#f21818",
+    url: "/productos?id=6",
   },
   {
     title: "PROTECCIÓN CATODICA",
@@ -75,6 +83,7 @@ export const slidersInfo = [
     img: "./images/home/B_08_Catodica-M.jpg",
     pdf: "http://felrro.com/pdf/catodica/Catodica.pdf",
     color: "#83096f",
+    url: "/productos?id=75",
   },
 ];
 

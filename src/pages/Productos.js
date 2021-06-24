@@ -21,11 +21,14 @@ import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
 
 import Drawer from "@material-ui/core/Drawer";
 import data from "../data/productos.json";
+import { slidersInfo } from "../data/slidersInfo";
+import { useHistory } from "react-router-dom";
 
-import { getByCode, getById, getByFamily } from "../lib/helpers";
+import { getByCode, getById } from "../lib/helpers";
 
 function Productos() {
   const location = useLocation();
+  const history = useHistory();
   const query = new URLSearchParams(location.search);
   const code = query?.get("code") || null;
   const id = query?.get("id") || null;
@@ -33,8 +36,6 @@ function Productos() {
   const { productos } = data;
   const [selected, setSelected] = useState();
   const [search, setSearch] = useState();
-
-  /*   console.log(getByFamily(productos, "Datos")); */
 
   const foundProduct = () => {
     if (code) {
@@ -74,6 +75,13 @@ function Productos() {
     setDrawerVisible(setter);
   };
 
+  useEffect(() => {
+    if (!id && !code) {
+      setSearch(null);
+      setSelected(null);
+    }
+  }, [id, code]);
+
   return (
     <Root>
       <Nav sticky={true} selected="PRODUCTOS" />
@@ -99,6 +107,29 @@ function Productos() {
             setSelected={setSelected}
           />
         </AccordionMenuContainer>
+        {!search && !selected && (
+          <BodyContainer>
+            <Title>Familias de productos</Title>
+            <Underline />
+            {slidersInfo.map((item) => (
+              <DetailsCard
+                fullwidth
+                color={item.color}
+                onClick={() => {
+                  history.push(item.url);
+                }}
+              >
+                <ImageContainer>
+                  <Image src={item.img} />
+                </ImageContainer>
+                <DetailsCardContent>
+                  <h6>{item.title}</h6>
+                  <p>{item.description}</p>
+                </DetailsCardContent>
+              </DetailsCard>
+            ))}
+          </BodyContainer>
+        )}
         {search && (
           <ListContainer>
             <Title>Resultados de Búsqueda</Title>
@@ -354,9 +385,15 @@ const DetailsCard = styled(Card)`
   box-sizing: border-box;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3) !important;
   margin: 5px 0px;
+  margin-top: ${(props) => (props.fullwidth ? "30px" : "5px")};
+  border-left: 3px solid
+    ${(props) => (props.color ? props.color : "transparent")};
 
   ${(props) => props.theme.mui.breakpoints.up("md")} {
-    width: 49%;
+    width: ${(props) => (props.fullwidth ? "100%" : "49%")};
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
 
     :nth-child(odd) {
       margin-right: 10px;
