@@ -55,20 +55,24 @@ const Nav = ({ showsBorder, sticky, isHome, backgroundColor, selected }) => {
   };
 
   const CloseButton = (
-    <IconButton
+    <IconButtonWrapper
       edge="end"
       color="inherit"
       aria-label="menu"
       onClick={handleDrawerRequestClose}
     >
       <CloseIcon />
-    </IconButton>
+    </IconButtonWrapper>
   );
 
   const BurgerMenu = (
-    <IconButton edge="end" aria-label="menu" onClick={handleDrawerButtonClick}>
+    <IconButtonWrapper
+      edge="end"
+      aria-label="menu"
+      onClick={handleDrawerButtonClick}
+    >
       <MenuIcon />
-    </IconButton>
+    </IconButtonWrapper>
   );
 
   return (
@@ -152,13 +156,14 @@ const Wrapper = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 30px;
   pointer-events: none;
   margin: 20px 0px;
+  height: 40px;
   ${(props) => props.theme.mui.breakpoints.up("md")} {
-    height: 60px;
     pointer-events: none;
     margin: 20px;
+    margin-top: 40px;
+    height: unset;
   }
 `;
 
@@ -185,6 +190,10 @@ const RightContent = styled.div`
 const LoggedInBar = styled.div`
   display: flex;
   align-items: center;
+`;
+
+const IconButtonWrapper = styled(IconButton)`
+  margin-right: 0px;
 `;
 
 /**

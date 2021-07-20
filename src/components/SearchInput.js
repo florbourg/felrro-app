@@ -25,7 +25,7 @@ export default function CustomizedInputBase({ setDrawer }) {
   return (
     <Container>
       <InputWrapper
-        placeholder="Busqueda por código de producto"
+        placeholder="Búsqueda por código de producto"
         onChange={handleInputValue}
       />
       <DividerWrapper orientation="vertical" />
@@ -37,8 +37,9 @@ export default function CustomizedInputBase({ setDrawer }) {
 }
 
 const InputWrapper = styled(InputBase)`
-  margin-left: 20px;
+  margin-left: 10px;
   flex: 1;
+  font-size: 12px;
 `;
 
 const Container = styled(Paper)`
@@ -50,7 +51,8 @@ const Container = styled(Paper)`
   margin: 0px 30px;
 
   ${(props) => props.theme.mui.breakpoints.up("md")} {
-    width: 400px;
+    width: 300px;
+    height: 30px;
   }
 `;
 

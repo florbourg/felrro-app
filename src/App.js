@@ -10,19 +10,22 @@ import Contacto from "./pages/Contacto";
 
 import Footer from "./components/Footer";
 
-import NotFound from "./pages/NotFound";
-
 function App() {
   return (
     <Wrapper>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route exact path="/index.html" component={HomePage} />
           <Route exact path="/empresa" component={Empresa} />
+          <Route exact path="/empresa.html" component={Empresa} />
           <Route exact path="/productos" component={Productos} />
+          <Route exact path="/productos.html" component={Productos} />
           <Route exact path="/calidad" component={Calidad} />
+          <Route exact path="/calidad.html" component={Calidad} />
           <Route exact path="/contacto" component={Contacto} />
-          <Route path="*" component={NotFound} />
+          <Route exact path="/contacto.html" component={Contacto} />
+          <Route path="*" component={HomePage} />
         </Switch>
         <Footer />
       </BrowserRouter>
